@@ -477,8 +477,8 @@ gstreamer1.0:
   meta                 1.8.3
   meta                 1.8.2+gitAUTOINC+3de8a4f728
 gstreamer1.0-libav:
-  meta                 git (skipped)
   meta                 1.8.3 (skipped)
+  meta                 git (skipped)
 gstreamer1.0-meta-base:
   meta                 1.0
 gstreamer1.0-omx:
@@ -494,8 +494,8 @@ gstreamer1.0-plugins-good:
   meta                 1.8.3
   meta                 1.8.2+gitAUTOINC+9f73b5818f
 gstreamer1.0-plugins-ugly:
-  meta                 git (skipped)
   meta                 1.8.3 (skipped)
+  meta                 git (skipped)
 gstreamer1.0-rtsp-server:
   meta                 1.8.3
 gtk+:
@@ -897,8 +897,8 @@ linux-yocto:
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
-  meta                 4.4 (skipped)
   meta                 4.1 (skipped)
+  meta                 4.4 (skipped)
   meta                 4.8 (skipped)
 linux-yocto-tiny:
   meta                 4.1 (skipped)
