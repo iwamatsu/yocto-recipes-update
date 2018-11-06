@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Parsing recipes...done.
-Parsing of 790 .bb files complete (0 cached, 790 parsed). 1263 targets, 62 skipped, 0 masked, 0 errors.
+Loading cache...done.
+Loaded 1263 entries from dependency cache.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
