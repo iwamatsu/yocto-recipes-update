@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1263 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 794 .bb files complete (0 cached, 794 parsed). 1271 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -284,6 +284,7 @@ eglinfo-fb:
 eglinfo-x11:
   meta                 1.0.0
 elfutils:
+  meta                 0.174
   meta                 0.173
 enchant:
   meta                 1.6.0
@@ -414,7 +415,7 @@ gnutls:
 go:
   meta                 1.11.1
   meta                 1.9.7
-go-cross-arm:
+go-cross-armv5e:
   meta                 1.11.1
   meta                 1.9.7
 go-cross-canadian-arm:
@@ -1041,6 +1042,7 @@ npth:
 nspr:
   meta                 4.19
 nss:
+  meta                 3.39
   meta                 3.38
 nss-myhostname:
   meta                 0.3
@@ -1395,8 +1397,10 @@ tiny-init:
 ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
+  meta                 2018g
   meta                 2018f
 tzdata:
+  meta                 2018g
   meta                 2018f
 u-boot:
   meta                 2018.07 (skipped)
