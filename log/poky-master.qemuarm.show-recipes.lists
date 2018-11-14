@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1271 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 816 .bb files complete (0 cached, 816 parsed). 1321 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -28,6 +28,7 @@ alsa-utils-scripts:
 apmd:
   meta                 3.2.2-15
 apr:
+  meta                 1.6.5
   meta                 1.6.3
 apr-util:
   meta                 1.6.1
@@ -76,6 +77,7 @@ bash-completion:
 bc:
   meta                 1.07.1
 bind:
+  meta                 9.11.5
   meta                 9.11.4
 binutils:
   meta                 2.31
@@ -150,6 +152,7 @@ cmake-native:
 cogl-1.0:
   meta                 1.22.2
 connman:
+  meta                 1.36
   meta                 1.35
 connman-conf:
   meta                 1.0
@@ -409,8 +412,10 @@ gnu-config:
 gnu-efi:
   meta                 3.0.8
 gnupg:
+  meta                 2.2.10
   meta                 2.2.9
 gnutls:
+  meta                 3.6.4
   meta                 3.6.3
 go:
   meta                 1.11.1
@@ -439,6 +444,7 @@ gobject-introspection:
 gperf:
   meta                 3.1
 gpgme:
+  meta                 1.12.0
   meta                 1.11.1
 gptfdisk:
   meta                 1.0.4
@@ -668,6 +674,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.11.3
+libjitterentropy:
+  meta                 2.1.2
 libjpeg-turbo:
   meta                 1:2.0.0
 libksba:
@@ -705,6 +713,7 @@ libpciaccess:
 libpcre:
   meta                 8.42
 libpcre2:
+  meta                 10.32
   meta                 10.31
 libpipeline:
   meta                 1.5.0
@@ -727,6 +736,7 @@ libsdl2:
 libsecret:
   meta                 0.18.6
 libsm:
+  meta                 1:1.2.3
   meta                 1:1.2.2
 libsndfile1:
   meta                 1.0.28
@@ -771,12 +781,14 @@ libvorbis:
 libwebp:
   meta                 1.0.0
 libx11:
+  meta                 1:1.6.7
   meta                 1:1.6.6
 libx11-diet:
   meta                 1.6.6 (skipped)
 libxau:
   meta                 1:1.0.8
 libxcb:
+  meta                 1.13.1
   meta                 1.13
 libxcomposite:
   meta                 1:0.4.4
@@ -914,6 +926,7 @@ makedepend:
 makedevs:
   meta                 1.0.1
 man-db:
+  meta                 2.8.4
   meta                 2.8.3
 man-pages:
   meta                 4.16
@@ -1020,6 +1033,7 @@ nativesdk-sdk-provides-dummy:
 nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
+  meta                 6.1+20180714
   meta                 6.1+20180630
 neard:
   meta                 0.16
@@ -1040,6 +1054,7 @@ ninja:
 npth:
   meta                 1.6
 nspr:
+  meta                 4.20
   meta                 4.19
 nss:
   meta                 3.39
@@ -1049,6 +1064,7 @@ nss-myhostname:
 ofono:
   meta                 1.24
 openssh:
+  meta                 7.9p1+git
   meta                 7.8p1+git
 openssl:
   meta                 1.1.1
@@ -1263,8 +1279,10 @@ resolvconf:
 rgb:
   meta                 1:1.0.6
 rng-tools:
+  meta                 6.6
   meta                 5
 rpcbind:
+  meta                 1.2.5
   meta                 0.2.4
 rpcsvc-proto:
   meta                 1.4+gitAUTOINC+9bc3b5b785
@@ -1317,12 +1335,14 @@ speex:
 speexdsp:
   meta                 1.2rc3
 sqlite3:
+  meta                 3:3.25.2
   meta                 3:3.23.1
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
   meta                 0.12
 strace:
+  meta                 4.25
   meta                 4.24
 stress:
   meta                 1.0.4
@@ -1501,6 +1521,7 @@ xf86-input-evdev:
 xf86-input-keyboard:
   meta                 2:1.9.0
 xf86-input-libinput:
+  meta                 2:0.28.1
   meta                 2:0.28.0
 xf86-input-mouse:
   meta                 2:1.9.3
@@ -1531,6 +1552,7 @@ xinput-calibrator:
 xkbcomp:
   meta                 1.4.2
 xkeyboard-config:
+  meta                 2.25
   meta                 2.24
 xmlto:
   meta                 0.0.28
@@ -1551,6 +1573,7 @@ xserver-nodm-init:
 xserver-xf86-config:
   meta                 0.1
 xserver-xorg:
+  meta                 2:1.20.3
   meta                 2:1.20.1
 xset:
   meta                 1:1.2.4
