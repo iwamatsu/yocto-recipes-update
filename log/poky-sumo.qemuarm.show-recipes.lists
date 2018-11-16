@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1282 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 818 .bb files complete (0 cached, 818 parsed). 1287 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -881,9 +881,9 @@ linux-firmware:
 linux-libc-headers:
   meta                 4.15.7
 linux-yocto:
-  meta                 4.14.67+gitAUTOINC+c43c9e19a2_93d58c0c59
-  meta                 4.12.28+gitAUTOINC+2ae65226f6_b84ecefc24
+  meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
   meta                 4.15.18+gitAUTOINC+45c256a5ca_d16b10fb69
+  meta                 4.12.28+gitAUTOINC+2ae65226f6_b84ecefc24
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
@@ -1216,8 +1216,10 @@ pulseaudio-client-conf-sato:
 puzzles:
   meta                 2:0.0+gitAUTOINC+2adf0052d6
 python:
+  meta                 2.7.15
   meta                 2.7.14
 python-native:
+  meta                 2.7.15
   meta                 2.7.14
 python-nose:
   meta                 1.3.7
@@ -1426,8 +1428,10 @@ trace-cmd:
 ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
+  meta                 2018f
   meta                 2018d
 tzdata:
+  meta                 2018f
   meta                 2018d
 u-boot:
   meta                 2018.01 (skipped)
