@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1321 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 837 .bb files complete (0 cached, 837 parsed). 1346 targets, 65 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -49,6 +49,7 @@ at:
 at-spi2-atk:
   meta                 2.26.2
 at-spi2-core:
+  meta                 2.30.0
   meta                 2.28.0
 atk:
   meta                 2.28.1
@@ -465,26 +466,36 @@ gst-examples:
 gst-validate:
   meta                 1.14.2
 gstreamer1.0:
+  meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
+  meta                 1.14.3 (skipped)
 gstreamer1.0-meta-base:
   meta                 1.0
 gstreamer1.0-omx:
   meta                 1.14.2 (skipped)
+  meta                 1.14.3 (skipped)
 gstreamer1.0-plugins-bad:
+  meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-plugins-base:
+  meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-plugins-good:
+  meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
+  meta                 1.14.3 (skipped)
 gstreamer1.0-python:
+  meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-rtsp-server:
+  meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-vaapi:
+  meta                 1.14.3
   meta                 1.14.2
 gtk+:
   meta                 2.24.32
@@ -497,6 +508,7 @@ gtk-icon-utils-native:
 gzip:
   meta                 1.9
 harfbuzz:
+  meta                 1.9.0
   meta                 1.8.8
 hdparm:
   meta                 9.56
@@ -621,6 +633,7 @@ libdnf:
 libdrm:
   meta                 2.4.94
 libepoxy:
+  meta                 1.5.3
   meta                 1.5.2
 liberation-fonts:
   meta                 1:2.00.1
@@ -673,6 +686,7 @@ libidn:
 libidn2:
   meta                 2.0.5
 libinput:
+  meta                 1.12.1
   meta                 1.11.3
 libjitterentropy:
   meta                 2.1.2
@@ -773,6 +787,7 @@ liburi-perl:
 libusb1:
   meta                 1.0.22
 libva:
+  meta                 2.3.0
   meta                 2.2.0
 libva-utils:
   meta                 2.2.0
@@ -898,12 +913,15 @@ lsbtest:
 lsof:
   meta                 4.91
 ltp:
+  meta                 20180926
   meta                 20180515
 lttng-modules:
+  meta                 2.10.8
   meta                 2.10.7
 lttng-tools:
   meta                 2.9.5
 lttng-ust:
+  meta                 2:2.10.2
   meta                 2:2.10.1
 lz4:
   meta                 1:1.8.2
@@ -1007,6 +1025,7 @@ mtd-utils:
 mtdev:
   meta                 1.1.5
 mtools:
+  meta                 4.0.19
   meta                 4.0.18
 musl:
   meta                 git (skipped)
@@ -1062,6 +1081,7 @@ nss:
 nss-myhostname:
   meta                 0.3
 ofono:
+  meta                 1.25
   meta                 1.24
 openssh:
   meta                 7.9p1+git
@@ -1347,6 +1367,7 @@ strace:
 stress:
   meta                 1.0.4
 subversion:
+  meta                 1.11.0
   meta                 1.10.0
 sudo:
   meta                 1.8.23
