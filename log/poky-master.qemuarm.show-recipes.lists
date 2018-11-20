@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1346 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 837 .bb files complete (0 cached, 837 parsed). 1346 targets, 65 skipped, 0 masked, 0 errors.
+Parsing of 844 .bb files complete (0 cached, 844 parsed). 1360 targets, 66 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -228,6 +230,7 @@ cryptodev-tests:
 cups:
   meta                 2.2.8
 curl:
+  meta                 7.62.0
   meta                 7.61.0
 cve-check-tool:
   meta                 5.6.4
@@ -577,6 +580,7 @@ kern-tools-native:
 kernel-devsrc:
   meta                 1.0
 kexec-tools:
+  meta                 2.0.18
   meta                 2.0.17
 keymaps:
   meta                 1.0
@@ -800,6 +804,7 @@ libx11:
   meta                 1:1.6.6
 libx11-diet:
   meta                 1.6.6 (skipped)
+  meta                 1.6.7 (skipped)
 libxau:
   meta                 1:1.0.8
 libxcb:
@@ -919,6 +924,7 @@ lttng-modules:
   meta                 2.10.8
   meta                 2.10.7
 lttng-tools:
+  meta                 2.10.5
   meta                 2.9.5
 lttng-ust:
   meta                 2:2.10.2
@@ -1034,6 +1040,7 @@ musl-utils:
 mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
+  meta                 2.14
   meta                 2.13.03
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
@@ -1076,6 +1083,7 @@ nspr:
   meta                 4.20
   meta                 4.19
 nss:
+  meta                 3.40
   meta                 3.39
   meta                 3.38
 nss-myhostname:
@@ -1355,6 +1363,7 @@ speex:
 speexdsp:
   meta                 1.2rc3
 sqlite3:
+  meta                 3:3.25.3
   meta                 3:3.25.2
   meta                 3:3.23.1
 squashfs-tools:
