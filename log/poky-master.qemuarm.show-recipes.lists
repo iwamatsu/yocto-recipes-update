@@ -1,9 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1346 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 844 .bb files complete (0 cached, 844 parsed). 1360 targets, 66 skipped, 0 masked, 0 errors.
+Parsing of 847 .bb files complete (0 cached, 847 parsed). 1365 targets, 66 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -511,6 +509,7 @@ gtk-icon-utils-native:
 gzip:
   meta                 1.9
 harfbuzz:
+  meta                 2.1.3
   meta                 1.9.0
   meta                 1.8.8
 hdparm:
@@ -690,8 +689,9 @@ libidn:
 libidn2:
   meta                 2.0.5
 libinput:
-  meta                 1.12.1
+  meta                 1.12.3
   meta                 1.11.3
+  meta                 1.12.1
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -702,6 +702,8 @@ libmatchbox:
   meta                 1.12
 libmnl:
   meta                 1.0.4
+libmodulemd:
+  meta                 1.7.0
 libmpc:
   meta                 1.1.0
 libnewt:
