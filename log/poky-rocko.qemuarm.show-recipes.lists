@@ -884,8 +884,8 @@ linux-libc-headers:
   meta                 4.12
 linux-yocto:
   meta                 4.12.28+gitAUTOINC+2ae65226f6_b84ecefc24
-  meta                 4.9.113+gitAUTOINC+5e993963af_cd831469d8
   meta                 4.4.162+gitAUTOINC+69ebea3425_a68a73dbd3
+  meta                 4.9.113+gitAUTOINC+5e993963af_cd831469d8
   meta                 4.10.17+gitAUTOINC+1d9a820018_ae12e19cec
 linux-yocto-dev:
   meta                 unknown (skipped)
