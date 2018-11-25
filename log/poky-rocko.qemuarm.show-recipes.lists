@@ -2,8 +2,6 @@ NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
 Loaded 1281 entries from dependency cache.
-Parsing recipes...done.
-Parsing of 822 .bb files complete (0 cached, 822 parsed). 1281 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -884,9 +882,9 @@ linux-libc-headers:
   meta                 4.12
 linux-yocto:
   meta                 4.12.28+gitAUTOINC+2ae65226f6_b84ecefc24
-  meta                 4.9.113+gitAUTOINC+5e993963af_cd831469d8
-  meta                 4.4.162+gitAUTOINC+69ebea3425_a68a73dbd3
   meta                 4.10.17+gitAUTOINC+1d9a820018_ae12e19cec
+  meta                 4.4.162+gitAUTOINC+69ebea3425_a68a73dbd3
+  meta                 4.9.113+gitAUTOINC+5e993963af_cd831469d8
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
