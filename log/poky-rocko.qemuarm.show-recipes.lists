@@ -1,9 +1,12 @@
 NOTE: Starting bitbake server...
+WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-rocko/meta/lib/oe/maketype.py:99: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  if not isinstance(obj, collections.Callable):
+
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
 Loaded 1281 entries from dependency cache.
 
-Summary: There was 1 WARNING message shown.
+Summary: There were 2 WARNING messages shown.
 === Available recipes: ===
 acl:
   meta                 2.2.52
