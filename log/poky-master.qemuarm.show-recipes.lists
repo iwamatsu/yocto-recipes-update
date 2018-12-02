@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1453 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 895 .bb files complete (0 cached, 895 parsed). 1456 targets, 72 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -265,8 +265,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.9
-  meta                 2.7.5
   meta                 4.0.4
+  meta                 2.7.5
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -293,8 +293,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.175
-  meta                 0.173
   meta                 0.174
+  meta                 0.173
 enchant:
   meta                 1.6.0
 encodings:
@@ -387,6 +387,7 @@ gettext:
 gettext-minimal-native:
   meta                 0.19.8.1
 ghostscript:
+  meta                 9.26
   meta                 9.25
 git:
   meta                 2.18.1
@@ -422,8 +423,8 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.11
-  meta                 2.2.10
   meta                 2.2.9
+  meta                 2.2.10
 gnutls:
   meta                 3.6.4
   meta                 3.6.3
@@ -478,8 +479,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -492,32 +493,32 @@ gstreamer1.0-omx:
   meta                 1.14.4 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
   meta                 1.14.2
   meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -531,8 +532,8 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.1.3
-  meta                 1.8.8
   meta                 1.9.0
+  meta                 1.8.8
 hdparm:
   meta                 9.56
 help2man-native:
@@ -658,8 +659,8 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.22.3
-  meta                 0.11.1
   meta                 0.22.0
+  meta                 0.11.1
 libdrm:
   meta                 2.4.96
   meta                 2.4.94
@@ -719,8 +720,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.11.3
   meta                 1.12.1
+  meta                 1.11.3
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -1097,8 +1098,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180630
   meta                 6.1+20180714
+  meta                 6.1+20180630
 neard:
   meta                 0.16
 net-tools:
@@ -1122,8 +1123,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.40
-  meta                 3.38
   meta                 3.39
+  meta                 3.38
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1554,8 +1555,8 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.4
-  meta                 2.20.5
   meta                 2.22.3
+  meta                 2.20.5
 weston:
   meta                 5.0.0
 weston-conf:
