@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1470 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 905 .bb files complete (0 cached, 905 parsed). 1470 targets, 72 skipped, 0 masked, 0 errors.
+Parsing of 905 .bb files complete (1 cached, 904 parsed). 1470 targets, 72 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -521,8 +523,8 @@ gstreamer1.0-rtsp-server:
   meta                 1.14.2
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gtk+:
   meta                 2.24.32
 gtk+3:
