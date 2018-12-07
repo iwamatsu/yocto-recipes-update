@@ -270,8 +270,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.9
-  meta                 4.0.4
   meta                 2.7.5
+  meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -298,8 +298,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.175
-  meta                 0.174
   meta                 0.173
+  meta                 0.174
 enchant:
   meta                 1.6.0
 encodings:
@@ -503,28 +503,28 @@ gstreamer1.0-plugins-bad:
   meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
   meta                 1.14.3
   meta                 1.14.2
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -1105,8 +1105,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
