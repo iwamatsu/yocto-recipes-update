@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1470 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 905 .bb files complete (0 cached, 905 parsed). 1470 targets, 72 skipped, 0 masked, 0 errors.
+Parsing of 905 .bb files complete (1 cached, 904 parsed). 1470 targets, 72 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -483,8 +485,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -536,8 +538,8 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.1.3
-  meta                 1.8.8
   meta                 1.9.0
+  meta                 1.8.8
 hdparm:
   meta                 9.56
 help2man-native:
@@ -663,8 +665,8 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.22.3
-  meta                 0.11.1
   meta                 0.22.0
+  meta                 0.11.1
 libdrm:
   meta                 2.4.96
   meta                 2.4.94
@@ -1103,8 +1105,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
@@ -1565,8 +1567,8 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.4
-  meta                 2.20.5
   meta                 2.22.3
+  meta                 2.20.5
 weston:
   meta                 5.0.0
 weston-conf:
