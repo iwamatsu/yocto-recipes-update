@@ -465,8 +465,8 @@ groff:
   meta                 1.18.1.4
 grub:
   meta                 2.00+AUTOINC+7a5b301e3a
-  meta                 0.97 (skipped)
   meta                 2.00 (skipped)
+  meta                 0.97 (skipped)
 grub-efi:
   meta                 2.00 (skipped)
 gsettings-desktop-schemas:
@@ -477,13 +477,13 @@ gstreamer1.0:
   meta                 1.8.3
   meta                 1.8.2+gitAUTOINC+3de8a4f728
 gstreamer1.0-libav:
-  meta                 1.8.3 (skipped)
   meta                 git (skipped)
+  meta                 1.8.3 (skipped)
 gstreamer1.0-meta-base:
   meta                 1.0
 gstreamer1.0-omx:
-  meta                 1.2.0 (skipped)
   meta                 git (skipped)
+  meta                 1.2.0 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.8.3
   meta                 1.8.2+gitAUTOINC+5e73b5a484
@@ -494,8 +494,8 @@ gstreamer1.0-plugins-good:
   meta                 1.8.3
   meta                 1.8.2+gitAUTOINC+9f73b5818f
 gstreamer1.0-plugins-ugly:
-  meta                 1.8.3 (skipped)
   meta                 git (skipped)
+  meta                 1.8.3 (skipped)
 gstreamer1.0-rtsp-server:
   meta                 1.8.3
 gtk+:
@@ -680,9 +680,9 @@ libgcc-initial:
 libgcrypt:
   meta                 1.7.3
 libgfortran:
+  meta                 6.4 (skipped)
   meta                 5.4 (skipped)
-  meta                 6.4 (skipped)
-  meta                 6.4 (skipped)
+  meta                 5.4 (skipped)
 libglu:
   meta                 2:9.0.0
 libgpg-error:
@@ -897,13 +897,13 @@ linux-yocto:
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
-  meta                 4.1 (skipped)
-  meta                 4.4 (skipped)
   meta                 4.8 (skipped)
+  meta                 4.4 (skipped)
+  meta                 4.1 (skipped)
 linux-yocto-tiny:
-  meta                 4.1 (skipped)
-  meta                 4.4 (skipped)
   meta                 4.8 (skipped)
+  meta                 4.4 (skipped)
+  meta                 4.1 (skipped)
 linuxdoc-tools-native:
   meta                 0.9.69
 logrotate:
