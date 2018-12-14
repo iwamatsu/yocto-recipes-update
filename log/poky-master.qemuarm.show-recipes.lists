@@ -441,7 +441,7 @@ go-cross-armv5e:
 go-cross-canadian-arm:
   meta                 1.11.1
   meta                 1.9.7
-go-crosssdk-x86_64:
+go-crosssdk-x86_64-pokysdk-linux:
   meta                 1.11.1
   meta                 1.9.7
 go-dep:
@@ -501,8 +501,8 @@ gstreamer1.0-plugins-bad:
   meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
   meta                 1.14.3
@@ -513,12 +513,12 @@ gstreamer1.0-plugins-ugly:
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-vaapi:
   meta                 1.14.4
   meta                 1.14.3
@@ -536,8 +536,8 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.1.3
-  meta                 1.8.8
   meta                 1.9.0
+  meta                 1.8.8
 hdparm:
   meta                 9.56
 help2man-native:
