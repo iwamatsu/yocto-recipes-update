@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Parsing recipes...done.
-Parsing of 906 .bb files complete (0 cached, 906 parsed). 1472 targets, 72 skipped, 0 masked, 0 errors.
+Parsing of 909 .bb files complete (0 cached, 909 parsed). 1477 targets, 72 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -268,8 +268,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.9
-  meta                 2.7.5
   meta                 4.0.4
+  meta                 2.7.5
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -501,8 +501,8 @@ gstreamer1.0-plugins-bad:
   meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-good:
   meta                 1.14.4
   meta                 1.14.3
@@ -513,16 +513,16 @@ gstreamer1.0-plugins-ugly:
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -726,8 +726,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.11.3
   meta                 1.12.1
+  meta                 1.11.3
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -777,6 +777,8 @@ libpng:
   meta                 1.6.35
 libproxy:
   meta                 0.4.15
+libpsl:
+  meta                 0.20.2
 libpthread-stubs:
   meta                 0.4
 librepo:
@@ -801,6 +803,7 @@ libsolv:
   meta                 0.7.1
   meta                 0.6.35
 libsoup-2.4:
+  meta                 2.64.2
   meta                 2.62.3
 libssp-nonshared:
   meta                 unknown (skipped)
@@ -1336,6 +1339,7 @@ python3-subunit:
 python3-testtools:
   meta                 2.3.0
 qemu:
+  meta                 3.1.0
   meta                 3.0.0
 qemu-helper-native:
   meta                 1.0
@@ -1415,8 +1419,8 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.25.3
-  meta                 3:3.25.2
   meta                 3:3.23.1
+  meta                 3:3.25.2
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
