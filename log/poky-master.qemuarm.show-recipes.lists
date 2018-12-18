@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1477 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 913 .bb files complete (0 cached, 913 parsed). 1482 targets, 74 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -268,8 +268,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.9
-  meta                 2.7.5
   meta                 4.0.4
+  meta                 2.7.5
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -296,8 +296,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.175
-  meta                 0.173
   meta                 0.174
+  meta                 0.173
 enchant:
   meta                 1.6.0
 encodings:
@@ -427,32 +427,32 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.11
-  meta                 2.2.10
   meta                 2.2.9
+  meta                 2.2.10
 gnutls:
   meta                 3.6.4
   meta                 3.6.3
 go:
-  meta                 1.11.1
+  meta                 1.11.4
   meta                 1.9.7
 go-cross-armv5e:
-  meta                 1.11.1
+  meta                 1.11.4
   meta                 1.9.7
 go-cross-canadian-arm:
-  meta                 1.11.1
+  meta                 1.11.4
   meta                 1.9.7
 go-crosssdk-x86_64-pokysdk-linux:
-  meta                 1.11.1
+  meta                 1.11.4
   meta                 1.9.7
 go-dep:
   meta                 0.5.0
 go-helloworld:
   meta                 0.1
 go-native:
-  meta                 1.11.1
+  meta                 1.11.4
   meta                 1.9.7
 go-runtime:
-  meta                 1.11.1
+  meta                 1.11.4
   meta                 1.9.7
 gobject-introspection:
   meta                 1.58.1
@@ -483,8 +483,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -497,32 +497,32 @@ gstreamer1.0-omx:
   meta                 1.14.4 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -536,8 +536,8 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.1.3
-  meta                 1.8.8
   meta                 1.9.0
+  meta                 1.8.8
 hdparm:
   meta                 9.56
 help2man-native:
@@ -603,7 +603,7 @@ json-glib:
 kbd:
   meta                 2.0.4
 kern-tools-native:
-  meta                 0.2+gitAUTOINC+d6529f86fc
+  meta                 0.2+gitAUTOINC+af1a779f66
 kernel-devsrc:
   meta                 1.0
 kexec-tools:
@@ -726,8 +726,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.11.3
   meta                 1.12.1
+  meta                 1.11.3
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -858,6 +858,7 @@ libxcb:
 libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
+  meta                 4.4.1
   meta                 4.1.1
 libxcursor:
   meta                 1:1.1.15
@@ -939,16 +940,19 @@ linux-firmware:
 linux-libc-headers:
   meta                 4.18
 linux-yocto:
-  meta                 4.18.14+gitAUTOINC+bf98e195a4_0573ed3c73
+  meta                 4.18.21+gitAUTOINC+8f4a98c938_bd83f95a7a
   meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
+  meta                 4.19.8+gitAUTOINC+ced14887c3_ec8e55a97a
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
   meta                 4.14 (skipped)
   meta                 4.18 (skipped)
+  meta                 4.19 (skipped)
 linux-yocto-tiny:
   meta                 4.14 (skipped)
   meta                 4.18 (skipped)
+  meta                 4.19 (skipped)
 llvm:
   meta                 6.0
 logrotate:
@@ -1133,8 +1137,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.40
-  meta                 3.38
   meta                 3.39
+  meta                 3.38
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1570,8 +1574,8 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.4
-  meta                 2.20.5
   meta                 2.22.3
+  meta                 2.20.5
 weston:
   meta                 5.0.0
 weston-conf:
