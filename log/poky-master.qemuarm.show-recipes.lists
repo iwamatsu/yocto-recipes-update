@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1496 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 920 .bb files complete (0 cached, 920 parsed). 1496 targets, 74 skipped, 0 masked, 0 errors.
+Parsing of 924 .bb files complete (1 cached, 923 parsed). 1506 targets, 74 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -82,13 +84,13 @@ bind:
   meta                 9.11.5
   meta                 9.11.4
 binutils:
-  meta                 2.31
+  meta                 2.31.1
 binutils-cross-arm:
-  meta                 2.31
+  meta                 2.31.1
 binutils-cross-canadian-arm:
-  meta                 2.31
+  meta                 2.31.1
 binutils-crosssdk-x86_64-pokysdk-linux:
-  meta                 2.31
+  meta                 2.31.1
 bison:
   meta                 3.0.4
 bjam-native:
@@ -296,8 +298,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.175
-  meta                 0.174
   meta                 0.173
+  meta                 0.174
 enchant:
   meta                 1.6.0
 encodings:
@@ -427,8 +429,9 @@ gnu-config:
 gnu-efi:
   meta                 3.0.8
 gnupg:
-  meta                 2.2.11
+  meta                 2.2.12
   meta                 2.2.9
+  meta                 2.2.11
   meta                 2.2.10
 gnutls:
   meta                 3.6.4
@@ -485,8 +488,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -503,12 +506,12 @@ gstreamer1.0-plugins-bad:
   meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -519,12 +522,12 @@ gstreamer1.0-python:
   meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -731,8 +734,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.11.3
   meta                 1.12.1
+  meta                 1.11.3
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -864,6 +867,7 @@ libxcb:
 libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
+  meta                 4.4.2
   meta                 4.4.1
   meta                 4.1.1
 libxcursor:
@@ -1117,8 +1121,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
@@ -1143,8 +1147,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.40
-  meta                 3.39
   meta                 3.38
+  meta                 3.39
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1160,12 +1164,14 @@ openssl10:
   meta                 1.0.2q
   meta                 1.0.2p
 opkg:
+  meta                 1:0.4.0
   meta                 1:0.3.6
 opkg-arch-config:
   meta                 1.0
 opkg-keyrings:
   meta                 1.0
 opkg-utils:
+  meta                 0.4.0
   meta                 0.3.6
 orc:
   meta                 0.4.28
@@ -1429,9 +1435,9 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
-  meta                 3:3.25.3
   meta                 3:3.25.2
   meta                 3:3.23.1
+  meta                 3:3.25.3
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
