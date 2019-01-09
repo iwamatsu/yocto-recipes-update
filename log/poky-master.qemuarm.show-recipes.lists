@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Parsing recipes...done.
-Parsing of 948 .bb files complete (0 cached, 948 parsed). 1555 targets, 75 skipped, 0 masked, 0 errors.
+Loading cache...done.
+Loaded 1555 entries from dependency cache.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -272,8 +272,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.10
-  meta                 4.0.4
   meta                 2.7.5
+  meta                 4.0.4
   meta                 4.0.9
 docbook-xml-dtd4:
   meta                 4.5
@@ -304,8 +304,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.175
-  meta                 0.174
   meta                 0.173
+  meta                 0.174
 enchant:
   meta                 1.6.0
 encodings:
@@ -437,13 +437,13 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.12
-  meta                 2.2.9
   meta                 2.2.10
   meta                 2.2.11
+  meta                 2.2.9
 gnutls:
   meta                 3.6.5
-  meta                 3.6.4
   meta                 3.6.3
+  meta                 3.6.4
 go:
   meta                 1.11.4
   meta                 1.9.7
@@ -511,16 +511,16 @@ gstreamer1.0-omx:
   meta                 1.14.4 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -746,8 +746,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.12.1
   meta                 1.11.3
+  meta                 1.12.1
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -881,8 +881,8 @@ libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
   meta                 4.4.2
-  meta                 4.4.1
   meta                 4.1.1
+  meta                 4.4.1
 libxcursor:
   meta                 1:1.1.15
 libxdamage:
@@ -955,8 +955,8 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.52
-  meta                 1.4.51
   meta                 1.4.50
+  meta                 1.4.51
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
@@ -1138,8 +1138,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
@@ -1166,9 +1166,9 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.40
-  meta                 3.39
   meta                 3.38
+  meta                 3.39
+  meta                 3.40
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1609,9 +1609,9 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.5
+  meta                 2.20.5
   meta                 2.22.3
   meta                 2.22.4
-  meta                 2.20.5
 weston:
   meta                 5.0.0
 weston-conf:
