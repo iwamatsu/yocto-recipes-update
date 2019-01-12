@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Parsing recipes...done.
-Parsing of 964 .bb files complete (0 cached, 964 parsed). 1591 targets, 75 skipped, 0 masked, 0 errors.
+Loading cache...done.
+Loaded 1591 entries from dependency cache.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -113,8 +113,8 @@ bsd-headers:
   meta                 unknown (skipped)
 btrfs-tools:
   meta                 4.19.1
-  meta                 4.19
   meta                 4.17.1
+  meta                 4.19
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -274,9 +274,9 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.10
-  meta                 4.0.9
-  meta                 4.0.4
   meta                 2.7.5
+  meta                 4.0.4
+  meta                 4.0.9
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -441,9 +441,9 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.12
-  meta                 2.2.9
-  meta                 2.2.11
   meta                 2.2.10
+  meta                 2.2.11
+  meta                 2.2.9
 gnutls:
   meta                 3.6.5
   meta                 3.6.3
@@ -515,24 +515,24 @@ gstreamer1.0-omx:
   meta                 1.14.4 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-base:
   meta                 1.14.4
   meta                 1.14.2
   meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
   meta                 1.14.2
@@ -554,9 +554,9 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.2.0
-  meta                 2.1.3
   meta                 1.8.8
   meta                 1.9.0
+  meta                 2.1.3
 hdparm:
   meta                 9.56
 help2man-native:
@@ -687,9 +687,9 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.24.1
+  meta                 0.11.1
   meta                 0.22.0
   meta                 0.22.3
-  meta                 0.11.1
 libdrm:
   meta                 2.4.96
   meta                 2.4.94
@@ -752,8 +752,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.12.1
   meta                 1.11.3
+  meta                 1.12.1
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -976,8 +976,8 @@ linux-libc-headers:
   meta                 4.18
 linux-yocto:
   meta                 4.18.22+gitAUTOINC+9e348b6f9d_5a58952eb0
-  meta                 4.19.8+gitAUTOINC+ced14887c3_ec8e55a97a
   meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
+  meta                 4.19.8+gitAUTOINC+ced14887c3_ec8e55a97a
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
@@ -1177,9 +1177,9 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.40
   meta                 3.38
   meta                 3.39
+  meta                 3.40
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1562,8 +1562,8 @@ tzcode-native:
   meta                 2018g
 tzdata:
   meta                 2018i
-  meta                 2018g
   meta                 2018f
+  meta                 2018g
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -1622,8 +1622,8 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.5
-  meta                 2.22.3
   meta                 2.20.5
+  meta                 2.22.3
   meta                 2.22.4
 weston:
   meta                 5.0.0
