@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1616 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 979 .bb files complete (0 cached, 979 parsed). 1616 targets, 75 skipped, 0 masked, 0 errors.
+Parsing of 979 .bb files complete (3 cached, 976 parsed). 1616 targets, 75 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -238,8 +240,8 @@ cups:
   meta                 2.2.8
 curl:
   meta                 7.63.0
-  meta                 7.61.0
   meta                 7.62.0
+  meta                 7.61.0
 cve-check-tool:
   meta                 5.6.4
 cwautomacros:
@@ -276,8 +278,8 @@ dmidecode:
 dnf:
   meta                 4.0.10
   meta                 4.0.9
-  meta                 4.0.4
   meta                 2.7.5
+  meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -444,8 +446,8 @@ gnu-efi:
 gnupg:
   meta                 2.2.12
   meta                 2.2.9
-  meta                 2.2.10
   meta                 2.2.11
+  meta                 2.2.10
 gnutls:
   meta                 3.6.5
   meta                 3.6.4
@@ -522,12 +524,12 @@ gstreamer1.0-plugins-bad:
   meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -557,9 +559,9 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.2.0
+  meta                 1.9.0
   meta                 2.1.3
   meta                 1.8.8
-  meta                 1.9.0
 hdparm:
   meta                 9.56
 help2man-native:
@@ -973,8 +975,8 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.52
-  meta                 1.4.51
   meta                 1.4.50
+  meta                 1.4.51
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
@@ -1137,8 +1139,8 @@ mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
   meta                 2.14.02
-  meta                 2.14
   meta                 2.13.03
+  meta                 2.14
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
 nativesdk-icecc-toolchain:
@@ -1186,8 +1188,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.38
   meta                 3.40
+  meta                 3.38
   meta                 3.39
 nss-myhostname:
   meta                 0.3
@@ -1196,8 +1198,8 @@ ofono:
   meta                 1.24
 openssh:
   meta                 7.9p1+git
-  meta                 7.8p1+git
   meta                 7.9p1
+  meta                 7.8p1+git
 openssl:
   meta                 1.1.1a
   meta                 1.1.1
@@ -1480,9 +1482,9 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
+  meta                 3:3.23.1
   meta                 3:3.25.3
   meta                 3:3.25.2
-  meta                 3:3.23.1
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
@@ -1495,8 +1497,8 @@ stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.10.0
   meta                 1.11.0
+  meta                 1.10.0
 sudo:
   meta                 1.8.26
   meta                 1.8.23
@@ -1572,8 +1574,8 @@ ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
   meta                 2018i
-  meta                 2018g
   meta                 2018f
+  meta                 2018g
 tzdata:
   meta                 2018i
   meta                 2018g
@@ -1613,8 +1615,8 @@ v86d:
   meta                 0.1.10 (skipped)
 vala:
   meta                 0.42.4
-  meta                 0.42.0
   meta                 0.42.3
+  meta                 0.42.0
 valgrind:
   meta                 3.14.0 (skipped)
 volatile-binds:
