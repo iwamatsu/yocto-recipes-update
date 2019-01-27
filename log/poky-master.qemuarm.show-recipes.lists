@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1618 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 980 .bb files complete (0 cached, 980 parsed). 1618 targets, 75 skipped, 0 masked, 0 errors.
+Parsing of 980 .bb files complete (3 cached, 977 parsed). 1618 targets, 75 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -444,8 +446,8 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.12
-  meta                 2.2.9
   meta                 2.2.10
+  meta                 2.2.9
   meta                 2.2.11
 gnutls:
   meta                 3.6.5
@@ -539,12 +541,12 @@ gstreamer1.0-python:
   meta                 1.14.3
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -899,8 +901,8 @@ libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
   meta                 4.4.2
-  meta                 4.4.1
   meta                 4.1.1
+  meta                 4.4.1
 libxcursor:
   meta                 1:1.1.15
 libxdamage:
@@ -1138,8 +1140,8 @@ mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
   meta                 2.14.02
-  meta                 2.14
   meta                 2.13.03
+  meta                 2.14
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
 nativesdk-icecc-toolchain:
@@ -1159,8 +1161,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
@@ -1188,8 +1190,8 @@ nspr:
 nss:
   meta                 3.41
   meta                 3.40
-  meta                 3.38
   meta                 3.39
+  meta                 3.38
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1197,8 +1199,8 @@ ofono:
   meta                 1.24
 openssh:
   meta                 7.9p1+git
-  meta                 7.8p1+git
   meta                 7.9p1
+  meta                 7.8p1+git
 openssl:
   meta                 1.1.1a
   meta                 1.1.1
@@ -1481,9 +1483,9 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
-  meta                 3:3.25.3
   meta                 3:3.23.1
   meta                 3:3.25.2
+  meta                 3:3.25.3
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
@@ -1496,8 +1498,8 @@ stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.10.0
   meta                 1.11.0
+  meta                 1.10.0
 sudo:
   meta                 1.8.26
   meta                 1.8.23
@@ -1639,8 +1641,8 @@ wayland-protocols:
 webkitgtk:
   meta                 2.22.5
   meta                 2.20.5
-  meta                 2.22.3
   meta                 2.22.4
+  meta                 2.22.3
 weston:
   meta                 5.0.0
 weston-conf:
