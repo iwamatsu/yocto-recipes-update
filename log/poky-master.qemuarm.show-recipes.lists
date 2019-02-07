@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Parsing recipes...done.
-Parsing of 996 .bb files complete (0 cached, 996 parsed). 1679 targets, 75 skipped, 0 masked, 0 errors.
+Parsing of 997 .bb files complete (0 cached, 997 parsed). 1682 targets, 75 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -145,8 +145,8 @@ cantarell-fonts:
   meta                 0.0.25
 ccache:
   meta                 3.6
-  meta                 3.5
   meta                 3.4.2
+  meta                 3.5
 cdrtools-native:
   meta                 3.01a31+really3.01
 chkconfig:
@@ -246,8 +246,8 @@ cups:
   meta                 2.2.8
 curl:
   meta                 7.63.0
-  meta                 7.61.0
   meta                 7.62.0
+  meta                 7.61.0
 cve-check-tool:
   meta                 5.6.4
 cwautomacros:
@@ -283,9 +283,9 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.10
-  meta                 4.0.4
   meta                 4.0.9
   meta                 2.7.5
+  meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -455,9 +455,9 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.12
+  meta                 2.2.11
   meta                 2.2.10
   meta                 2.2.9
-  meta                 2.2.11
 gnutls:
   meta                 3.6.5
   meta                 3.6.3
@@ -487,8 +487,8 @@ go-runtime:
 gobject-introspection:
   meta                 1.58.3
   meta                 1.58.0
-  meta                 1.58.1
   meta                 1.58.2
+  meta                 1.58.1
 gperf:
   meta                 3.1
 gpgme:
@@ -530,12 +530,12 @@ gstreamer1.0-omx:
   meta                 1.14.4 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-base:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.14.4
   meta                 1.14.2
@@ -546,12 +546,12 @@ gstreamer1.0-plugins-ugly:
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-vaapi:
   meta                 1.14.4
   meta                 1.14.3
@@ -703,8 +703,8 @@ libdmx:
 libdnf:
   meta                 0.24.1
   meta                 0.11.1
-  meta                 0.22.3
   meta                 0.22.0
+  meta                 0.22.3
 libdrm:
   meta                 2.4.96
   meta                 2.4.94
@@ -754,8 +754,8 @@ libglu:
   meta                 2:9.0.0
 libgpg-error:
   meta                 1.35
-  meta                 1.32
   meta                 1.33
+  meta                 1.32
 libgudev:
   meta                 232
 libical:
@@ -770,8 +770,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.11.3
   meta                 1.12.1
+  meta                 1.11.3
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -987,8 +987,8 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.52
-  meta                 1.4.50
   meta                 1.4.51
+  meta                 1.4.50
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
@@ -997,9 +997,9 @@ linux-libc-headers:
   meta                 4.19
   meta                 4.18
 linux-yocto:
-  meta                 4.18.25+gitAUTOINC+ce063086f1_0002e7595b
-  meta                 4.19.14+gitAUTOINC+70d33ded25_b960e1b087
+  meta                 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
   meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
+  meta                 4.19.19+gitAUTOINC+4c0da29403_21a0a68be1
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
@@ -1131,6 +1131,7 @@ modutils-initscripts:
 mpeg2dec:
   meta                 0.5.1 (skipped)
 mpfr:
+  meta                 4.0.2
   meta                 4.0.1
 mpg123:
   meta                 1.25.10
@@ -1151,8 +1152,8 @@ mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
   meta                 2.14.02
-  meta                 2.14
   meta                 2.13.03
+  meta                 2.14
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
 nativesdk-icecc-toolchain:
@@ -1200,8 +1201,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.39
   meta                 3.38
+  meta                 3.39
   meta                 3.40
 nss-myhostname:
   meta                 0.3
@@ -1495,9 +1496,9 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
+  meta                 3:3.23.1
   meta                 3:3.25.2
   meta                 3:3.25.3
-  meta                 3:3.23.1
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
@@ -1510,8 +1511,8 @@ stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.11.0
   meta                 1.10.0
+  meta                 1.11.0
 sudo:
   meta                 1.8.26
   meta                 1.8.23
@@ -1588,13 +1589,13 @@ ttf-bitstream-vera:
 tzcode-native:
   meta                 2018i
   meta                 2018f
+  meta                 2018i
   meta                 2018g
-  meta                 2018i
 tzdata:
-  meta                 2018i
   meta                 2018i
   meta                 2018f
   meta                 2018g
+  meta                 2018i
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -1654,9 +1655,9 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.5
-  meta                 2.22.3
-  meta                 2.22.4
   meta                 2.20.5
+  meta                 2.22.4
+  meta                 2.22.3
 weston:
   meta                 5.0.0
 weston-conf:
