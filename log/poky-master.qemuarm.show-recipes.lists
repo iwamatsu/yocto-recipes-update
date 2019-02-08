@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Parsing recipes...done.
-Parsing of 997 .bb files complete (0 cached, 997 parsed). 1682 targets, 75 skipped, 0 masked, 0 errors.
+Parsing of 1000 .bb files complete (0 cached, 1000 parsed). 1687 targets, 75 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -283,8 +283,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.10
-  meta                 4.0.9
   meta                 2.7.5
+  meta                 4.0.9
   meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
@@ -486,8 +486,8 @@ go-runtime:
   meta                 1.9.7
 gobject-introspection:
   meta                 1.58.3
-  meta                 1.58.0
   meta                 1.58.2
+  meta                 1.58.0
   meta                 1.58.1
 gperf:
   meta                 3.1
@@ -546,8 +546,8 @@ gstreamer1.0-plugins-ugly:
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
   meta                 1.14.2
@@ -569,8 +569,8 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.2.0
-  meta                 1.8.8
   meta                 1.9.0
+  meta                 1.8.8
   meta                 2.1.3
 hdparm:
   meta                 9.56
@@ -702,9 +702,9 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.24.1
+  meta                 0.22.3
   meta                 0.11.1
   meta                 0.22.0
-  meta                 0.22.3
 libdrm:
   meta                 2.4.96
   meta                 2.4.94
@@ -770,8 +770,8 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.3
-  meta                 1.12.1
   meta                 1.11.3
+  meta                 1.12.1
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -851,9 +851,9 @@ libsndfile1:
   meta                 1.0.28
 libsolv:
   meta                 0.7.3
-  meta                 0.7.1
   meta                 0.7.2
   meta                 0.6.35
+  meta                 0.7.1
 libsoup-2.4:
   meta                 2.64.2
   meta                 2.62.3
@@ -987,8 +987,8 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.52
-  meta                 1.4.51
   meta                 1.4.50
+  meta                 1.4.51
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
@@ -1201,8 +1201,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.38
   meta                 3.39
+  meta                 3.38
   meta                 3.40
 nss-myhostname:
   meta                 0.3
@@ -1372,6 +1372,7 @@ python-scons-native:
 python-setuptools:
   meta                 40.0.0
 python3:
+  meta                 3.7.2
   meta                 3.5.6
 python3-async:
   meta                 0.6.2
@@ -1389,8 +1390,6 @@ python3-iniparse:
   meta                 0.4
 python3-mako:
   meta                 1.0.7
-python3-native:
-  meta                 3.5.6
 python3-nose:
   meta                 1.3.7
 python3-numpy:
@@ -1496,8 +1495,8 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
-  meta                 3:3.23.1
   meta                 3:3.25.2
+  meta                 3:3.23.1
   meta                 3:3.25.3
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
@@ -1505,14 +1504,14 @@ startup-notification:
   meta                 0.12
 strace:
   meta                 4.26
-  meta                 4.24
   meta                 4.25
+  meta                 4.24
 stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.10.0
   meta                 1.11.0
+  meta                 1.10.0
 sudo:
   meta                 1.8.26
   meta                 1.8.23
@@ -1589,13 +1588,13 @@ ttf-bitstream-vera:
 tzcode-native:
   meta                 2018i
   meta                 2018f
-  meta                 2018i
   meta                 2018g
+  meta                 2018i
 tzdata:
   meta                 2018i
-  meta                 2018f
   meta                 2018g
   meta                 2018i
+  meta                 2018f
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -1631,8 +1630,8 @@ v86d:
   meta                 0.1.10 (skipped)
 vala:
   meta                 0.42.4
-  meta                 0.42.0
   meta                 0.42.3
+  meta                 0.42.0
 valgrind:
   meta                 3.14.0 (skipped)
 volatile-binds:
@@ -1652,6 +1651,7 @@ watchdog-config:
 wayland:
   meta                 1.16.0
 wayland-protocols:
+  meta                 1.17
   meta                 1.16
 webkitgtk:
   meta                 2.22.5
@@ -1672,6 +1672,7 @@ which:
 wic-tools:
   meta                 1.0
 wpa-supplicant:
+  meta                 2.7
   meta                 2.6
 x11perf:
   meta                 1:1.6.0
