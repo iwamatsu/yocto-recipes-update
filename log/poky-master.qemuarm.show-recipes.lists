@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Parsing recipes...done.
-Parsing of 1001 .bb files complete (0 cached, 1001 parsed). 1689 targets, 75 skipped, 0 masked, 0 errors.
+Parsing of 1006 .bb files complete (0 cached, 1006 parsed). 1695 targets, 75 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -117,8 +117,8 @@ bsd-headers:
   meta                 unknown (skipped)
 btrfs-tools:
   meta                 4.19.1
-  meta                 4.17.1
   meta                 4.19
+  meta                 4.17.1
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -145,8 +145,8 @@ cantarell-fonts:
   meta                 0.0.25
 ccache:
   meta                 3.6
-  meta                 3.5
   meta                 3.4.2
+  meta                 3.5
 cdrtools-native:
   meta                 3.01a31+really3.01
 chkconfig:
@@ -162,8 +162,10 @@ clutter-gst-3.0:
 clutter-gtk-1.0:
   meta                 1.8.4
 cmake:
+  meta                 3.13.4
   meta                 3.12.2
 cmake-native:
+  meta                 3.13.4
   meta                 3.12.2
 cogl-1.0:
   meta                 1.22.2
@@ -283,8 +285,8 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.0.10
-  meta                 4.0.9
   meta                 2.7.5
+  meta                 4.0.9
   meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
@@ -456,8 +458,8 @@ gnu-efi:
 gnupg:
   meta                 2.2.12
   meta                 2.2.10
-  meta                 2.2.11
   meta                 2.2.9
+  meta                 2.2.11
 gnutls:
   meta                 3.6.5
   meta                 3.6.4
@@ -554,8 +556,8 @@ gstreamer1.0-rtsp-server:
   meta                 1.14.3
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -569,9 +571,9 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.2.0
+  meta                 2.1.3
   meta                 1.9.0
   meta                 1.8.8
-  meta                 2.1.3
 hdparm:
   meta                 9.56
 help2man-native:
@@ -702,9 +704,9 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.24.1
+  meta                 0.11.1
   meta                 0.22.3
   meta                 0.22.0
-  meta                 0.11.1
 libdrm:
   meta                 2.4.96
   meta                 2.4.94
@@ -852,8 +854,8 @@ libsndfile1:
 libsolv:
   meta                 0.7.3
   meta                 0.7.2
-  meta                 0.7.1
   meta                 0.6.35
+  meta                 0.7.1
 libsoup-2.4:
   meta                 2.64.2
   meta                 2.62.3
@@ -888,9 +890,11 @@ liburi-perl:
 libusb1:
   meta                 1.0.22
 libva:
-  meta                 2.3.0
+  meta                 2.4.0
   meta                 2.2.0
+  meta                 2.3.0
 libva-utils:
+  meta                 2.4.0
   meta                 2.3.0
   meta                 2.2.0
 libvorbis:
@@ -913,8 +917,8 @@ libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
   meta                 4.4.2
-  meta                 4.4.1
   meta                 4.1.1
+  meta                 4.4.1
 libxcursor:
   meta                 1:1.1.15
 libxdamage:
@@ -1087,6 +1091,7 @@ mdadm:
   meta                 4.1
   meta                 4.0
 menu-cache:
+  meta                 1.1.0
   meta                 1.0.2
 mesa:
   meta                 2:18.1.9
@@ -1174,8 +1179,8 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
@@ -1202,8 +1207,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.39
   meta                 3.38
+  meta                 3.39
   meta                 3.40
 nss-myhostname:
   meta                 0.3
@@ -1350,8 +1355,8 @@ psplash:
   meta                 0.1+gitAUTOINC+2015f7073e
 ptest-runner:
   meta                 2.3.1+gitAUTOINC+05b112bda7
-  meta                 2.3+gitAUTOINC+e1062f776e
   meta                 2.2+gitAUTOINC+49956f65bb
+  meta                 2.3+gitAUTOINC+e1062f776e
 pulseaudio:
   meta                 12.2
 pulseaudio-client-conf-sato:
@@ -1496,17 +1501,17 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
+  meta                 3:3.23.1
   meta                 3:3.25.2
   meta                 3:3.25.3
-  meta                 3:3.23.1
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
   meta                 0.12
 strace:
   meta                 4.26
-  meta                 4.24
   meta                 4.25
+  meta                 4.24
 stress:
   meta                 1.0.4
 subversion:
@@ -1593,9 +1598,9 @@ tzcode-native:
   meta                 2018g
 tzdata:
   meta                 2018i
+  meta                 2018i
   meta                 2018g
   meta                 2018f
-  meta                 2018i
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
