@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1723 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 1019 .bb files complete (0 cached, 1019 parsed). 1723 targets, 75 skipped, 0 masked, 0 errors.
+Parsing of 1021 .bb files complete (6 cached, 1015 parsed). 1725 targets, 75 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -131,11 +133,13 @@ builder:
 buildtools-tarball:
   meta                 1.0
 busybox:
+  meta                 1.30.1
   meta                 1.29.3
   meta                 1.29.2
 busybox-inittab:
-  meta                 1.29.3
+  meta                 1.30.1
   meta                 1.29.2
+  meta                 1.29.3
 bzip2:
   meta                 1.0.6
 ca-certificates:
@@ -147,8 +151,8 @@ cantarell-fonts:
   meta                 0.0.25
 ccache:
   meta                 3.6
-  meta                 3.4.2
   meta                 3.5
+  meta                 3.4.2
 cdrtools-native:
   meta                 3.01a31+really3.01
 chkconfig:
@@ -291,8 +295,8 @@ dmidecode:
 dnf:
   meta                 4.0.10
   meta                 4.0.9
-  meta                 4.0.4
   meta                 2.7.5
+  meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -324,8 +328,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.175
-  meta                 0.174
   meta                 0.173
+  meta                 0.174
 enchant:
   meta                 1.6.0
 encodings:
@@ -465,9 +469,9 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.12
-  meta                 2.2.9
   meta                 2.2.10
   meta                 2.2.11
+  meta                 2.2.9
 gnutls:
   meta                 3.6.5
   meta                 3.6.4
@@ -526,8 +530,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -548,8 +552,8 @@ gstreamer1.0-plugins-base:
   meta                 1.14.2
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -579,9 +583,9 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.3.1
-  meta                 1.8.8
   meta                 1.9.0
   meta                 2.2.0
+  meta                 1.8.8
   meta                 2.1.3
 hdparm:
   meta                 9.56
@@ -1170,8 +1174,8 @@ mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
   meta                 2.14.02
-  meta                 2.14
   meta                 2.13.03
+  meta                 2.14
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
 nativesdk-icecc-toolchain:
@@ -1219,9 +1223,9 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.38
-  meta                 3.39
   meta                 3.40
+  meta                 3.39
+  meta                 3.38
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1515,8 +1519,8 @@ speexdsp:
 sqlite3:
   meta                 3:3.26.0
   meta                 3:3.23.1
-  meta                 3:3.25.2
   meta                 3:3.25.3
+  meta                 3:3.25.2
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
@@ -1611,8 +1615,8 @@ tzcode-native:
   meta                 2018i
 tzdata:
   meta                 2018i
-  meta                 2018g
   meta                 2018i
+  meta                 2018g
   meta                 2018f
 u-boot:
   meta                 2018.07 (skipped)
@@ -1674,8 +1678,8 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.5
-  meta                 2.22.3
   meta                 2.20.5
+  meta                 2.22.3
   meta                 2.22.4
 weston:
   meta                 5.0.0
