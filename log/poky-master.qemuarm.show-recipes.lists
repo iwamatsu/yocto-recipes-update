@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
-Loaded 1748 entries from dependency cache.
+Loaded 1814 entries from dependency cache.
 Parsing recipes...done.
 Parsing of 1066 .bb files complete (6 cached, 1060 parsed). 1814 targets, 76 skipped, 0 masked, 0 errors.
 
@@ -122,8 +122,8 @@ bsd-headers:
 btrfs-tools:
   meta                 4.20.1
   meta                 4.19
-  meta                 4.19.1
   meta                 4.17.1
+  meta                 4.19.1
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -154,8 +154,8 @@ cantarell-fonts:
   meta                 0.0.25
 ccache:
   meta                 3.6
-  meta                 3.4.2
   meta                 3.5
+  meta                 3.4.2
 cdrtools-native:
   meta                 3.01a31+really3.01
 chkconfig:
@@ -302,10 +302,10 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.1.0
-  meta                 4.0.10
   meta                 2.7.5
-  meta                 4.0.9
+  meta                 4.0.10
   meta                 4.0.4
+  meta                 4.0.9
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -513,8 +513,8 @@ go-runtime:
   meta                 1.9.7
 gobject-introspection:
   meta                 1.58.3
-  meta                 1.58.2
   meta                 1.58.1
+  meta                 1.58.2
   meta                 1.58.0
 gperf:
   meta                 3.1
@@ -599,8 +599,8 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.3.1
-  meta                 2.2.0
   meta                 2.1.3
+  meta                 2.2.0
   meta                 1.9.0
   meta                 1.8.8
 hdparm:
@@ -736,9 +736,9 @@ libdmx:
 libdnf:
   meta                 0.26.0
   meta                 0.11.1
+  meta                 0.22.0
   meta                 0.24.1
   meta                 0.22.3
-  meta                 0.22.0
 libdrm:
   meta                 2.4.97
   meta                 2.4.94
@@ -868,8 +868,8 @@ libpthread-stubs:
   meta                 0.4
 librepo:
   meta                 1.9.4
-  meta                 1.9.3
   meta                 1.9.2
+  meta                 1.9.3
   meta                 1.8.1
 librsvg:
   meta                 2.40.20
@@ -890,8 +890,8 @@ libsndfile1:
   meta                 1.0.28
 libsolv:
   meta                 0.7.3
-  meta                 0.6.35
   meta                 0.7.2
+  meta                 0.6.35
   meta                 0.7.1
 libsoup-2.4:
   meta                 2.64.2
@@ -1558,9 +1558,9 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
-  meta                 3:3.25.2
-  meta                 3:3.23.1
   meta                 3:3.25.3
+  meta                 3:3.23.1
+  meta                 3:3.25.2
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
@@ -1573,8 +1573,8 @@ stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.11.0
   meta                 1.10.0
+  meta                 1.11.0
 sudo:
   meta                 1.8.27
   meta                 1.8.23
@@ -1590,8 +1590,8 @@ sysprof:
   meta                 3.30.0
 sysstat:
   meta                 12.1.3
-  meta                 12.1.1
   meta                 11.7.4
+  meta                 12.1.1
 systemd:
   meta                 239 (skipped)
 systemd-boot:
@@ -1722,8 +1722,8 @@ wayland-protocols:
   meta                 1.16
 webkitgtk:
   meta                 2.22.6
-  meta                 2.20.5
   meta                 2.22.4
+  meta                 2.20.5
   meta                 2.22.3
   meta                 2.22.5
 weston:
