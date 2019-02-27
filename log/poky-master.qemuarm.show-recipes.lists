@@ -1,9 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
-Loaded 1868 entries from dependency cache.
+Loaded 1869 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 1093 .bb files complete (7 cached, 1086 parsed). 1869 targets, 80 skipped, 0 masked, 0 errors.
+Parsing of 1094 .bb files complete (7 cached, 1087 parsed). 1872 targets, 81 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -126,9 +126,9 @@ bsd-headers:
   meta                 unknown (skipped)
 btrfs-tools:
   meta                 4.20.1
-  meta                 4.19.1
   meta                 4.19
   meta                 4.17.1
+  meta                 4.19.1
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -141,8 +141,8 @@ buildtools-tarball:
   meta                 1.0
 busybox:
   meta                 1.30.1
-  meta                 1.29.2
   meta                 1.29.3
+  meta                 1.29.2
 busybox-inittab:
   meta                 1.30.1
   meta                 1.29.2
@@ -309,10 +309,10 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.1.0
+  meta                 4.0.4
   meta                 4.0.9
   meta                 4.0.10
   meta                 2.7.5
-  meta                 4.0.4
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -353,8 +353,8 @@ encodings:
   meta                 1:1.0.4
 epiphany:
   meta                 3.30.3
-  meta                 3.28.3.1
   meta                 3.30.2
+  meta                 3.28.3.1
 ethtool:
   meta                 4.19
   meta                 4.17
@@ -493,8 +493,8 @@ gnupg:
   meta                 2.2.13
   meta                 2.2.12
   meta                 2.2.10
-  meta                 2.2.11
   meta                 2.2.9
+  meta                 2.2.11
 gnutls:
   meta                 3.6.5
   meta                 3.6.3
@@ -554,8 +554,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -611,8 +611,8 @@ harfbuzz:
   meta                 2.3.1
   meta                 1.8.8
   meta                 2.2.0
-  meta                 1.9.0
   meta                 2.1.3
+  meta                 1.9.0
 hdparm:
   meta                 9.58
   meta                 9.56
@@ -747,10 +747,10 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.26.0
-  meta                 0.22.0
-  meta                 0.24.1
   meta                 0.22.3
   meta                 0.11.1
+  meta                 0.22.0
+  meta                 0.24.1
 libdrm:
   meta                 2.4.97
   meta                 2.4.96
@@ -881,9 +881,9 @@ libpthread-stubs:
   meta                 0.4
 librepo:
   meta                 1.9.4
+  meta                 1.9.3
   meta                 1.9.2
   meta                 1.8.1
-  meta                 1.9.3
 librsvg:
   meta                 2.40.20
 libsamplerate0:
@@ -969,8 +969,8 @@ libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
   meta                 4.4.2
-  meta                 4.4.1
   meta                 4.1.1
+  meta                 4.4.1
 libxcursor:
   meta                 1:1.1.15
 libxdamage:
@@ -1046,8 +1046,8 @@ libyaml:
 lighttpd:
   meta                 1.4.53
   meta                 1.4.50
-  meta                 1.4.51
   meta                 1.4.52
+  meta                 1.4.51
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
@@ -1167,8 +1167,8 @@ mesa-gl-native:
   meta                 2:18.1.9 (skipped)
 meson:
   meta                 0.49.2
-  meta                 0.47.2
   meta                 0.49.0
+  meta                 0.47.2
 meta-environment-extsdk-qemuarm:
   meta                 1.0
 meta-environment-qemuarm:
@@ -1236,8 +1236,8 @@ nativesdk-libtool:
   meta                 2.4.6
 nativesdk-meson:
   meta                 0.49.2
-  meta                 0.49.0
   meta                 0.47.2
+  meta                 0.49.0
 nativesdk-packagegroup-sdk-host:
   meta                 1.0
 nativesdk-qemu-helper:
@@ -1245,11 +1245,12 @@ nativesdk-qemu-helper:
 nativesdk-sdk-provides-dummy:
   meta                 1.0
 nativesdk-syslinux:
+  meta                 6.04-pre2 (skipped)
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20181013
-  meta                 6.1+20180714
   meta                 6.1+20180630
+  meta                 6.1+20180714
 neard:
   meta                 0.16
 net-tools:
@@ -1277,8 +1278,8 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.38
   meta                 3.40
+  meta                 3.38
   meta                 3.39
 nss-myhostname:
   meta                 0.3
@@ -1477,8 +1478,8 @@ python3-numpy:
   meta                 1.14.5
 python3-pbr:
   meta                 5.1.2
-  meta                 4.2.0
   meta                 5.1.1
+  meta                 4.2.0
 python3-pip:
   meta                 19.0.2
   meta                 18.0
@@ -1582,23 +1583,23 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.26.0
-  meta                 3:3.25.2
-  meta                 3:3.23.1
   meta                 3:3.25.3
+  meta                 3:3.23.1
+  meta                 3:3.25.2
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
   meta                 0.12
 strace:
   meta                 4.26
-  meta                 4.24
   meta                 4.25
+  meta                 4.24
 stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.11.0
   meta                 1.10.0
+  meta                 1.11.0
 sudo:
   meta                 1.8.27
   meta                 1.8.26
@@ -1609,6 +1610,9 @@ sysfsutils:
   meta                 2.1.0
 sysklogd:
   meta                 1.5.1
+syslinux:
+  meta                 6.03 (skipped)
+  meta                 6.04-pre2 (skipped)
 sysprof:
   meta                 3.30.2
   meta                 3.30.0
@@ -1677,14 +1681,14 @@ ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
   meta                 2018i
-  meta                 2018f
   meta                 2018g
+  meta                 2018f
   meta                 2018i
 tzdata:
   meta                 2018i
   meta                 2018f
-  meta                 2018g
   meta                 2018i
+  meta                 2018g
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -1753,8 +1757,8 @@ wayland-protocols:
 webkitgtk:
   meta                 2.22.6
   meta                 2.22.5
-  meta                 2.20.5
   meta                 2.22.4
+  meta                 2.20.5
   meta                 2.22.3
 weston:
   meta                 5.0.0
