@@ -1,7 +1,9 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 1888 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 1107 .bb files complete (0 cached, 1107 parsed). 1888 targets, 83 skipped, 0 masked, 0 errors.
+Parsing of 1111 .bb files complete (7 cached, 1104 parsed). 1892 targets, 85 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -10,6 +12,7 @@ acl:
 acpica:
   meta                 20180508
 acpid:
+  meta                 2.0.31
   meta                 2.0.30
 adwaita-icon-theme:
   meta                 3.30.1
@@ -124,9 +127,9 @@ bsd-headers:
   meta                 unknown (skipped)
 btrfs-tools:
   meta                 4.20.1
+  meta                 4.19
   meta                 4.17.1
   meta                 4.19.1
-  meta                 4.19
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -143,8 +146,8 @@ busybox:
   meta                 1.29.3
 busybox-inittab:
   meta                 1.30.1
-  meta                 1.29.3
   meta                 1.29.2
+  meta                 1.29.3
 bzip2:
   meta                 1.0.6
 ca-certificates:
@@ -157,8 +160,8 @@ cantarell-fonts:
   meta                 0.0.25
 ccache:
   meta                 3.6
-  meta                 3.4.2
   meta                 3.5
+  meta                 3.4.2
 cdrtools-native:
   meta                 3.01a31+really3.01
 chkconfig:
@@ -266,8 +269,8 @@ cups:
 curl:
   meta                 7.64.0
   meta                 7.62.0
-  meta                 7.61.0
   meta                 7.63.0
+  meta                 7.61.0
 cve-check-tool:
   meta                 5.6.4
 cwautomacros:
@@ -498,9 +501,9 @@ gnu-efi:
 gnupg:
   meta                 2.2.13
   meta                 2.2.12
-  meta                 2.2.11
-  meta                 2.2.9
   meta                 2.2.10
+  meta                 2.2.9
+  meta                 2.2.11
 gnutls:
   meta                 3.6.5
   meta                 3.6.3
@@ -530,8 +533,8 @@ go-runtime:
 gobject-introspection:
   meta                 1.58.3
   meta                 1.58.2
-  meta                 1.58.1
   meta                 1.58.0
+  meta                 1.58.1
 gperf:
   meta                 3.1
 gpgme:
@@ -560,8 +563,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -582,24 +585,24 @@ gstreamer1.0-plugins-base:
   meta                 1.14.2
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
   meta                 1.14.2
   meta                 1.14.3
 gstreamer1.0-vaapi:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gtk+:
   meta                 2.24.32
 gtk+3:
@@ -811,8 +814,8 @@ libglu:
   meta                 2:9.0.0
 libgpg-error:
   meta                 1.35
-  meta                 1.32
   meta                 1.33
+  meta                 1.32
 libgudev:
   meta                 232
 libical:
@@ -961,8 +964,8 @@ libvorbis:
   meta                 1.3.6
 libwebp:
   meta                 1.0.2
-  meta                 1.0.1
   meta                 1.0.0
+  meta                 1.0.1
 libx11:
   meta                 1:1.6.7
   meta                 1:1.6.6
@@ -1067,8 +1070,8 @@ linux-libc-headers:
   meta                 4.18
 linux-yocto:
   meta                 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
-  meta                 4.19.19+gitAUTOINC+41fe45f7c5_0d83500d73
   meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
+  meta                 4.19.19+gitAUTOINC+41fe45f7c5_0d83500d73
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
@@ -1103,8 +1106,8 @@ lttng-modules:
   meta                 2.10.7
 lttng-tools:
   meta                 2.10.6
-  meta                 2.10.5
   meta                 2.9.5
+  meta                 2.10.5
 lttng-ust:
   meta                 2:2.10.3
   meta                 2:2.10.1
@@ -1236,8 +1239,8 @@ mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
   meta                 2.14.02
-  meta                 2.13.03
   meta                 2.14
+  meta                 2.13.03
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
 nativesdk-icecc-toolchain:
@@ -1288,9 +1291,9 @@ nspr:
   meta                 4.19
 nss:
   meta                 3.41
-  meta                 3.39
-  meta                 3.40
   meta                 3.38
+  meta                 3.40
+  meta                 3.39
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1598,8 +1601,8 @@ speexdsp:
 sqlite3:
   meta                 3:3.26.0
   meta                 3:3.25.2
-  meta                 3:3.23.1
   meta                 3:3.25.3
+  meta                 3:3.23.1
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
 startup-notification:
@@ -1636,8 +1639,10 @@ sysstat:
   meta                 12.1.1
 systemd:
   meta                 239 (skipped)
+  meta                 241 (skipped)
 systemd-boot:
   meta                 239 (skipped)
+  meta                 241 (skipped)
 systemd-bootchart:
   meta                 233 (skipped)
 systemd-bootconf:
@@ -1645,6 +1650,7 @@ systemd-bootconf:
 systemd-compat-units:
   meta                 unknown (skipped)
 systemd-conf:
+  meta                 241
   meta                 1.0
 systemd-machine-units:
   meta                 1.0
@@ -1700,8 +1706,8 @@ tzcode-native:
   meta                 2018i
 tzdata:
   meta                 2018i
-  meta                 2018g
   meta                 2018f
+  meta                 2018g
   meta                 2018i
 u-boot:
   meta                 2018.07 (skipped)
@@ -1771,9 +1777,9 @@ wayland-protocols:
 webkitgtk:
   meta                 2.22.6
   meta                 2.22.5
+  meta                 2.22.4
   meta                 2.20.5
   meta                 2.22.3
-  meta                 2.22.4
 weston:
   meta                 5.0.0
 weston-conf:
