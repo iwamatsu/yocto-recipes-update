@@ -6,7 +6,7 @@ WARNING: Host distribution "debian" has not been validated with this version of 
 Loading cache...done.
 Loaded 1289 entries from dependency cache.
 Parsing recipes...done.
-Parsing of 820 .bb files complete (0 cached, 820 parsed). 1289 targets, 62 skipped, 0 masked, 0 errors.
+Parsing of 823 .bb files complete (0 cached, 823 parsed). 1292 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There were 2 WARNING messages shown.
 === Available recipes: ===
@@ -916,10 +916,13 @@ lsof:
 ltp:
   meta                 20180118
 lttng-modules:
+  meta                 2.10.9
   meta                 2.10.6
 lttng-tools:
+  meta                 2.9.11
   meta                 2.9.5
 lttng-ust:
+  meta                 2:2.10.3
   meta                 2:2.10.1
 lz4:
   meta                 1:1.7.4
