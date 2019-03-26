@@ -3,8 +3,6 @@ WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-sumo/meta/lib/oe/mak
   if not isinstance(obj, collections.Callable):
 
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Loading cache...done.
-Loaded 1289 entries from dependency cache.
 Parsing recipes...done.
 Parsing of 823 .bb files complete (0 cached, 823 parsed). 1292 targets, 62 skipped, 0 masked, 0 errors.
 
@@ -1441,8 +1439,8 @@ tzcode-native:
   meta                 2018d
 tzdata:
   meta                 2018i
-  meta                 2018f
   meta                 2018d
+  meta                 2018f
 u-boot:
   meta                 2018.01 (skipped)
 u-boot-fw-utils:

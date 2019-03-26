@@ -1,7 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
-Loaded 1958 entries from dependency cache.
+Loaded 1973 entries from dependency cache.
 Parsing recipes...done.
 Parsing of 1154 .bb files complete (7 cached, 1147 parsed). 1973 targets, 90 skipped, 0 masked, 0 errors.
 
@@ -268,9 +268,9 @@ cups:
   meta                 2.2.9
 curl:
   meta                 7.64.0
-  meta                 7.63.0
   meta                 7.62.0
   meta                 7.61.0
+  meta                 7.63.0
 cve-check-tool:
   meta                 5.6.4
 cwautomacros:
@@ -508,28 +508,28 @@ gnupg:
   meta                 2.2.13
   meta                 2.2.12
   meta                 2.2.9
-  meta                 2.2.10
   meta                 2.2.11
+  meta                 2.2.10
 gnutls:
   meta                 3.6.5
   meta                 3.6.3
   meta                 3.6.4
 go:
   meta                 1.12.1
-  meta                 1.9.7
   meta                 1.11.4
+  meta                 1.9.7
 go-cross-armv7vet2hf-neon:
   meta                 1.12.1
   meta                 1.9.7
   meta                 1.11.4
 go-cross-canadian-arm:
   meta                 1.12.1
-  meta                 1.9.7
   meta                 1.11.4
+  meta                 1.9.7
 go-crosssdk-x86_64-pokysdk-linux:
   meta                 1.12.1
-  meta                 1.11.4
   meta                 1.9.7
+  meta                 1.11.4
 go-dep:
   meta                 0.5.0
 go-helloworld:
@@ -597,16 +597,16 @@ gstreamer1.0-plugins-base:
   meta                 1.14.2
 gstreamer1.0-plugins-good:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.2
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
   meta                 1.14.2
@@ -631,9 +631,9 @@ gzip:
 harfbuzz:
   meta                 2.3.1
   meta                 1.9.0
+  meta                 1.8.8
   meta                 2.1.3
   meta                 2.2.0
-  meta                 1.8.8
 hdparm:
   meta                 9.58
   meta                 9.56
@@ -808,9 +808,9 @@ libfontenc:
   meta                 1:1.1.4
   meta                 1:1.1.3
 libgcc:
-  meta                 8.3.0
-  meta                 7.3.0
   meta                 8.2.0
+  meta                 7.3.0
+  meta                 8.3.0
 libgcc-initial:
   meta                 8.3.0
   meta                 8.2.0
@@ -830,8 +830,8 @@ libglu:
   meta                 2:9.0.0
 libgpg-error:
   meta                 1.35
-  meta                 1.32
   meta                 1.33
+  meta                 1.32
 libgudev:
   meta                 232
 libical:
@@ -910,8 +910,8 @@ libpthread-stubs:
   meta                 0.4
 librepo:
   meta                 1.9.4
-  meta                 1.9.2
   meta                 1.8.1
+  meta                 1.9.2
   meta                 1.9.3
 librsvg:
   meta                 2.40.20
@@ -932,8 +932,8 @@ libsndfile1:
   meta                 1.0.28
 libsolv:
   meta                 0.7.3
-  meta                 0.6.35
   meta                 0.7.2
+  meta                 0.6.35
   meta                 0.7.1
 libsoup-2.4:
   meta                 2.64.2
@@ -980,8 +980,8 @@ libvorbis:
   meta                 1.3.6
 libwebp:
   meta                 1.0.2
-  meta                 1.0.0
   meta                 1.0.1
+  meta                 1.0.0
 libx11:
   meta                 1:1.6.7
   meta                 1:1.6.6
@@ -1078,21 +1078,21 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.53
-  meta                 1.4.52
   meta                 1.4.50
   meta                 1.4.51
+  meta                 1.4.52
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
   meta                 1:0.0+gitAUTOINC+7bc2464513
 linux-libc-headers:
   meta                 5.0
-  meta                 4.18
   meta                 4.19
+  meta                 4.18
 linux-yocto:
   meta                 5.0.3+gitAUTOINC+705457837e_18a5ffa0e9
-  meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
   meta                 4.19.30+gitAUTOINC+d85f07e03c_3df49db2ea
+  meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
   meta                 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
 linux-yocto-dev:
   meta                 unknown (skipped)
@@ -1134,8 +1134,8 @@ lttng-tools:
   meta                 2.9.5
 lttng-ust:
   meta                 2:2.10.3
-  meta                 2:2.10.1
   meta                 2:2.10.2
+  meta                 2:2.10.1
 lz4:
   meta                 1:1.8.3
   meta                 1:1.8.2
@@ -1276,8 +1276,8 @@ nativesdk-libtool:
   meta                 2.4.6
 nativesdk-meson:
   meta                 0.49.2
-  meta                 0.49.0
   meta                 0.47.2
+  meta                 0.49.0
 nativesdk-packagegroup-sdk-host:
   meta                 1.0
 nativesdk-qemu-helper:
@@ -1321,8 +1321,8 @@ nspr:
 nss:
   meta                 3.42.1
   meta                 3.39
-  meta                 3.41
   meta                 3.40
+  meta                 3.41
   meta                 3.38
 nss-myhostname:
   meta                 0.3
@@ -1634,8 +1634,8 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.27.2
-  meta                 3:3.23.1
   meta                 3:3.25.3
+  meta                 3:3.23.1
   meta                 3:3.25.2
   meta                 3:3.26.0
 squashfs-tools:
@@ -1742,8 +1742,8 @@ tzcode-native:
 tzdata:
   meta                 2018i
   meta                 2018g
-  meta                 2018i
   meta                 2018f
+  meta                 2018i
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -1907,8 +1907,8 @@ xkbcomp:
   meta                 1.4.2
 xkeyboard-config:
   meta                 2.26
-  meta                 2.25
   meta                 2.24
+  meta                 2.25
 xmlto:
   meta                 0.0.28
 xmodmap:
