@@ -5,8 +5,6 @@ WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-sumo/meta/lib/oe/mak
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
 Loaded 1292 entries from dependency cache.
-Parsing recipes...done.
-Parsing of 823 .bb files complete (0 cached, 823 parsed). 1292 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There were 2 WARNING messages shown.
 === Available recipes: ===
@@ -1437,12 +1435,12 @@ ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
   meta                 2018i
-  meta                 2018f
   meta                 2018d
+  meta                 2018f
 tzdata:
   meta                 2018i
-  meta                 2018f
   meta                 2018d
+  meta                 2018f
 u-boot:
   meta                 2018.01 (skipped)
 u-boot-fw-utils:
