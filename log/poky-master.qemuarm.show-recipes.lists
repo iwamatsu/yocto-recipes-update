@@ -1,9 +1,7 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
-Loaded 1973 entries from dependency cache.
-Parsing recipes...done.
-Parsing of 1160 .bb files complete (7 cached, 1153 parsed). 1985 targets, 91 skipped, 0 masked, 0 errors.
+Loaded 1985 entries from dependency cache.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -128,9 +126,9 @@ bsd-headers:
   meta                 unknown (skipped)
 btrfs-tools:
   meta                 4.20.1
-  meta                 4.19
-  meta                 4.19.1
   meta                 4.17.1
+  meta                 4.19.1
+  meta                 4.19
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -143,8 +141,8 @@ buildtools-tarball:
   meta                 1.0
 busybox:
   meta                 1.30.1
-  meta                 1.29.3
   meta                 1.29.2
+  meta                 1.29.3
 busybox-inittab:
   meta                 1.30.1
   meta                 1.29.2
@@ -184,8 +182,8 @@ cmake:
   meta                 3.13.4
 cmake-native:
   meta                 3.14.0
-  meta                 3.13.4
   meta                 3.12.2
+  meta                 3.13.4
 cogl-1.0:
   meta                 1.22.2
 connman:
@@ -267,12 +265,12 @@ cryptodev-tests:
   meta                 1.9
 cups:
   meta                 2.2.10
-  meta                 2.2.9
   meta                 2.2.8
+  meta                 2.2.9
 curl:
   meta                 7.64.0
-  meta                 7.62.0
   meta                 7.61.0
+  meta                 7.62.0
   meta                 7.63.0
 cve-check-tool:
   meta                 5.6.4
@@ -313,10 +311,10 @@ dmidecode:
   meta                 3.1
 dnf:
   meta                 4.1.0
-  meta                 4.0.4
-  meta                 4.0.10
-  meta                 4.0.9
   meta                 2.7.5
+  meta                 4.0.10
+  meta                 4.0.4
+  meta                 4.0.9
 docbook-xml-dtd4:
   meta                 4.5
 docbook-xsl-stylesheets:
@@ -327,8 +325,8 @@ dosfstools:
   meta                 4.1
 dpkg:
   meta                 1.19.4
-  meta                 1.18.25
   meta                 1.18.24
+  meta                 1.18.25
 dropbear:
   meta                 2019.77
   meta                 2018.76
@@ -350,8 +348,8 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.176
-  meta                 0.174
   meta                 0.173
+  meta                 0.174
   meta                 0.175
 enchant:
   meta                 1.6.0
@@ -359,8 +357,8 @@ encodings:
   meta                 1:1.0.4
 epiphany:
   meta                 3.30.3
-  meta                 3.30.2
   meta                 3.28.3.1
+  meta                 3.30.2
 ethtool:
   meta                 4.19
   meta                 4.17
@@ -408,13 +406,13 @@ gcc:
   meta                 7.3.0
   meta                 8.3.0
 gcc-cross-arm:
-  meta                 8.3.0
-  meta                 7.3.0
   meta                 8.2.0
+  meta                 7.3.0
+  meta                 8.3.0
 gcc-cross-canadian-arm:
-  meta                 8.3.0
   meta                 8.2.0
   meta                 7.3.0
+  meta                 8.3.0
 gcc-cross-initial-arm:
   meta                 8.2.0
   meta                 7.3.0
@@ -422,17 +420,17 @@ gcc-crosssdk-initial-x86_64-pokysdk-linux:
   meta                 8.2.0
   meta                 7.3.0
 gcc-crosssdk-x86_64-pokysdk-linux:
-  meta                 8.3.0
-  meta                 7.3.0
   meta                 8.2.0
+  meta                 7.3.0
+  meta                 8.3.0
 gcc-runtime:
-  meta                 8.3.0
-  meta                 7.3.0
   meta                 8.2.0
+  meta                 7.3.0
+  meta                 8.3.0
 gcc-sanitizers:
-  meta                 8.3.0
   meta                 8.2.0
   meta                 7.3.0
+  meta                 8.3.0
 gcc-source-7.3.0:
   meta                 7.3.0
 gcc-source-8.2.0:
@@ -445,11 +443,11 @@ gcr:
   meta                 3.28.1
   meta                 3.28.0
 gdb:
-  meta                 8.2
   meta                 8.2.1
+  meta                 8.2
 gdb-cross-arm:
-  meta                 8.2
   meta                 8.2.1
+  meta                 8.2
 gdb-cross-canadian-arm:
   meta                 8.2.1
   meta                 8.2
@@ -509,10 +507,10 @@ gnu-efi:
   meta                 3.0.8
 gnupg:
   meta                 2.2.13
-  meta                 2.2.12
-  meta                 2.2.11
-  meta                 2.2.9
   meta                 2.2.10
+  meta                 2.2.11
+  meta                 2.2.12
+  meta                 2.2.9
 gnutls:
   meta                 3.6.5
   meta                 3.6.3
@@ -523,8 +521,8 @@ go:
   meta                 1.9.7
 go-cross-armv7vet2hf-neon:
   meta                 1.12.1
-  meta                 1.9.7
   meta                 1.11.4
+  meta                 1.9.7
 go-cross-canadian-arm:
   meta                 1.12.1
   meta                 1.11.4
@@ -547,9 +545,9 @@ go-runtime:
   meta                 1.9.7
 gobject-introspection:
   meta                 1.58.3
-  meta                 1.58.2
-  meta                 1.58.1
   meta                 1.58.0
+  meta                 1.58.1
+  meta                 1.58.2
 gperf:
   meta                 3.1
 gpgme:
@@ -578,8 +576,8 @@ gst-validate:
   meta                 1.14.2
 gstreamer1.0:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -592,8 +590,8 @@ gstreamer1.0-omx:
   meta                 1.14.4 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-plugins-base:
   meta                 1.14.4
   meta                 1.14.2
@@ -608,8 +606,8 @@ gstreamer1.0-plugins-ugly:
   meta                 1.14.4 (skipped)
 gstreamer1.0-python:
   meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
 gstreamer1.0-rtsp-server:
   meta                 1.14.4
   meta                 1.14.2
@@ -622,8 +620,8 @@ gtk+:
   meta                 2.24.32
 gtk+3:
   meta                 3.24.5
-  meta                 3.24.1
   meta                 3.22.30
+  meta                 3.24.1
 gtk-doc:
   meta                 1.29
 gtk-icon-utils-native:
@@ -633,10 +631,10 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.3.1
-  meta                 2.2.0
-  meta                 2.1.3
   meta                 1.8.8
   meta                 1.9.0
+  meta                 2.1.3
+  meta                 2.2.0
 hdparm:
   meta                 9.58
   meta                 9.56
@@ -713,8 +711,8 @@ kernel-devsrc:
   meta                 1.0
 kexec-tools:
   meta                 2.0.19
-  meta                 2.0.18
   meta                 2.0.17
+  meta                 2.0.18
 keymaps:
   meta                 1.0
 kmod:
@@ -745,8 +743,8 @@ libart-lgpl:
   meta                 2.3.21
 libassuan:
   meta                 2.5.3
-  meta                 2.5.2
   meta                 2.5.1
+  meta                 2.5.2
 libatomic-ops:
   meta                 7.6.8
   meta                 7.6.6+gitAUTOINC+76ffb3b879
@@ -775,14 +773,14 @@ libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.26.0
-  meta                 0.24.1
-  meta                 0.22.3
   meta                 0.11.1
   meta                 0.22.0
+  meta                 0.22.3
+  meta                 0.24.1
 libdrm:
   meta                 2.4.97
-  meta                 2.4.96
   meta                 2.4.94
+  meta                 2.4.96
 libepoxy:
   meta                 1.5.3
   meta                 1.5.2
@@ -850,9 +848,9 @@ libidn2:
   meta                 2.0.5
 libinput:
   meta                 1.12.6
-  meta                 1.12.3
   meta                 1.11.3
   meta                 1.12.1
+  meta                 1.12.3
 libjitterentropy:
   meta                 2.1.2
 libjpeg-turbo:
@@ -936,8 +934,8 @@ libsndfile1:
   meta                 1.0.28
 libsolv:
   meta                 0.7.3
-  meta                 0.7.1
   meta                 0.6.35
+  meta                 0.7.1
   meta                 0.7.2
 libsoup-2.4:
   meta                 2.64.2
@@ -974,8 +972,8 @@ libusb1:
   meta                 1.0.22
 libva:
   meta                 2.4.0
-  meta                 2.3.0
   meta                 2.2.0
+  meta                 2.3.0
 libva-utils:
   meta                 2.4.0
   meta                 2.2.0
@@ -984,8 +982,8 @@ libvorbis:
   meta                 1.3.6
 libwebp:
   meta                 1.0.2
-  meta                 1.0.1
   meta                 1.0.0
+  meta                 1.0.1
 libx11:
   meta                 1:1.6.7
   meta                 1:1.6.6
@@ -1029,8 +1027,8 @@ libxinerama:
   meta                 1:1.1.4
 libxkbcommon:
   meta                 0.8.4
-  meta                 0.8.3
   meta                 0.8.2
+  meta                 0.8.3
 libxkbfile:
   meta                 1:1.0.9
 libxml-namespacesupport-perl:
@@ -1082,8 +1080,8 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.53
-  meta                 1.4.51
   meta                 1.4.50
+  meta                 1.4.51
   meta                 1.4.52
 linux-dummy:
   meta                 unknown (skipped)
@@ -1091,13 +1089,13 @@ linux-firmware:
   meta                 1:0.0+gitAUTOINC+7bc2464513
 linux-libc-headers:
   meta                 5.0
-  meta                 4.19
   meta                 4.18
+  meta                 4.19
 linux-yocto:
   meta                 5.0.3+gitAUTOINC+705457837e_18a5ffa0e9
   meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
-  meta                 4.19.30+gitAUTOINC+d85f07e03c_3df49db2ea
   meta                 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
+  meta                 4.19.30+gitAUTOINC+d85f07e03c_3df49db2ea
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
@@ -1127,8 +1125,8 @@ lsof:
   meta                 4.91
 ltp:
   meta                 20190115
-  meta                 20180926
   meta                 20180515
+  meta                 20180926
 lttng-modules:
   meta                 2.10.8
   meta                 2.10.7
@@ -1138,8 +1136,8 @@ lttng-tools:
   meta                 2.9.5
 lttng-ust:
   meta                 2:2.10.3
-  meta                 2:2.10.2
   meta                 2:2.10.1
+  meta                 2:2.10.2
 lz4:
   meta                 1:1.8.3
   meta                 1:1.8.2
@@ -1209,9 +1207,9 @@ mesa-gl:
   meta                 19.0.1 (skipped)
 mesa-gl-native:
   meta                 2:19.0.1 (skipped)
+  meta                 2:18.1.9 (skipped)
   meta                 2:18.3.4 (skipped)
   meta                 2:19.0.0 (skipped)
-  meta                 2:18.1.9 (skipped)
 meson:
   meta                 0.49.2
   meta                 0.47.2
@@ -1323,14 +1321,14 @@ npth:
   meta                 1.6
 nspr:
   meta                 4.21
-  meta                 4.20
   meta                 4.19
+  meta                 4.20
 nss:
   meta                 3.42.1
+  meta                 3.38
   meta                 3.39
   meta                 3.40
   meta                 3.41
-  meta                 3.38
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -1342,12 +1340,12 @@ openssh:
   meta                 7.9p1
 openssl:
   meta                 1.1.1b
-  meta                 1.1.1a
   meta                 1.1.1
+  meta                 1.1.1a
 openssl10:
   meta                 1.0.2r
-  meta                 1.0.2q
   meta                 1.0.2p
+  meta                 1.0.2q
 opkg:
   meta                 1:0.4.0
   meta                 1:0.3.6
@@ -1641,9 +1639,9 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.27.2
+  meta                 3:3.23.1
   meta                 3:3.25.2
   meta                 3:3.25.3
-  meta                 3:3.23.1
   meta                 3:3.26.0
 squashfs-tools:
   meta                 4.3+gitrAUTOINC+9c1db6d13a
@@ -1651,18 +1649,18 @@ startup-notification:
   meta                 0.12
 strace:
   meta                 4.26
-  meta                 4.25
   meta                 4.24
+  meta                 4.25
 stress:
   meta                 1.0.4
 subversion:
   meta                 1.11.1
-  meta                 1.11.0
   meta                 1.10.0
+  meta                 1.11.0
 sudo:
   meta                 1.8.27
-  meta                 1.8.26
   meta                 1.8.23
+  meta                 1.8.26
 swig:
   meta                 3.0.12
 sysfsutils:
@@ -1677,8 +1675,8 @@ sysprof:
   meta                 3.30.0
 sysstat:
   meta                 12.1.3
-  meta                 12.1.1
   meta                 11.7.4
+  meta                 12.1.1
 systemd:
   meta                 239 (skipped)
   meta                 241 (skipped)
@@ -1743,14 +1741,14 @@ ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
   meta                 2019a
+  meta                 2018f
   meta                 2018g
   meta                 2018i
-  meta                 2018f
 tzdata:
   meta                 2019a
-  meta                 2018i
   meta                 2018f
   meta                 2018g
+  meta                 2018i
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -1790,9 +1788,9 @@ v86d:
   meta                 0.1.10 (skipped)
 vala:
   meta                 0.42.5
-  meta                 0.42.4
-  meta                 0.42.3
   meta                 0.42.0
+  meta                 0.42.3
+  meta                 0.42.4
 valgrind:
   meta                 3.14.0
 vim:
@@ -1827,8 +1825,8 @@ webkitgtk:
   meta                 2.22.6
   meta                 2.20.5
   meta                 2.22.3
-  meta                 2.22.5
   meta                 2.22.4
+  meta                 2.22.5
 weston:
   meta                 5.0.0
 weston-conf:
@@ -1880,8 +1878,8 @@ xf86-input-keyboard:
   meta                 2:1.9.0
 xf86-input-libinput:
   meta                 2:0.28.2
-  meta                 2:0.28.1
   meta                 2:0.28.0
+  meta                 2:0.28.1
 xf86-input-mouse:
   meta                 2:1.9.3
 xf86-input-synaptics:
@@ -1938,8 +1936,8 @@ xserver-xf86-config:
   meta                 0.1
 xserver-xorg:
   meta                 2:1.20.4
-  meta                 2:1.20.3
   meta                 2:1.20.1
+  meta                 2:1.20.3
 xset:
   meta                 1:1.2.4
 xtrans:
