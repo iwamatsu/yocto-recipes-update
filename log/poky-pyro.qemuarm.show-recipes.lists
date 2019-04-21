@@ -10,8 +10,8 @@ WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-pyro/meta/lib/oe/mak
 WARNING: Host distribution "debian-10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 WARNING: Host distribution "debian-10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 WARNING: Host distribution "debian-10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Parsing recipes...done.
-Parsing of 831 .bb files complete (0 cached, 831 parsed). 1304 targets, 67 skipped, 0 masked, 0 errors.
+Loading cache...done.
+Loaded 1304 entries from dependency cache.
 
 Summary: There were 2 WARNING messages shown.
 === Available recipes: ===
@@ -450,8 +450,8 @@ gnutls:
   meta                 3.5.9
 go:
   meta                 1.8
-  meta                 1.7.4
   meta                 1.6.3
+  meta                 1.7.4
 go-bootstrap-native:
   meta                 1.4.3
 go-cross-arm:
@@ -898,9 +898,9 @@ linux-libc-headers:
   meta                 4.10
 linux-yocto:
   meta                 4.10.17+gitAUTOINC+1d9a820018_ae12e19cec
-  meta                 4.9.82+gitAUTOINC+0774eacea2_23369eb7e0
-  meta                 4.4.113+gitAUTOINC+b149d14cca_400c0f39b9
   meta                 4.1.49+gitAUTOINC+4e12cb8f8e_f20a35023c
+  meta                 4.4.113+gitAUTOINC+b149d14cca_400c0f39b9
+  meta                 4.9.82+gitAUTOINC+0774eacea2_23369eb7e0
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
