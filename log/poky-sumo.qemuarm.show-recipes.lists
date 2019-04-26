@@ -2,8 +2,6 @@ NOTE: Starting bitbake server...
 WARNING: Host distribution "debian-10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
 Loaded 1292 entries from dependency cache.
-Parsing recipes...done.
-Parsing of 823 .bb files complete (0 cached, 823 parsed). 1292 targets, 62 skipped, 0 masked, 0 errors.
 
 Summary: There was 1 WARNING message shown.
 === Available recipes: ===
@@ -1434,8 +1432,8 @@ ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
   meta                 2018i
-  meta                 2018f
   meta                 2018d
+  meta                 2018f
 tzdata:
   meta                 2018i
   meta                 2018d
