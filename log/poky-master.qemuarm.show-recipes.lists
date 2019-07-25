@@ -1,5 +1,4 @@
 NOTE: Starting bitbake server...
-NOTE: Bitbake server didn't start within 5 seconds, waiting for 90
 Loading cache...done.
 Loaded 2649 entries from dependency cache.
 === Available recipes: ===
