@@ -2,7 +2,7 @@ NOTE: Starting bitbake server...
 WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-rocko/meta/lib/oe/maketype.py:99: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
   if not isinstance(obj, collections.Callable):
 
-WARNING: Host distribution "debian-10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
 Loading cache...done.
 Loaded 1281 entries from dependency cache.
 
