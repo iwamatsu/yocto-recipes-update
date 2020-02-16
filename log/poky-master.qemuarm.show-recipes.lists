@@ -1,135 +1,40 @@
 NOTE: Starting bitbake server...
 WARNING: Host distribution "debian" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
-Parsing recipes...WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.56.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.56.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.52.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.56.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.56.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.52.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.56.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.56.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/vte/vte_0.52.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/libfm/libfm_1.3.0.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/atk/at-spi2-atk_2.30.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/atk/at-spi2-core_2.28.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.24.4.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/atk/at-spi2-atk_2.30.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/atk/at-spi2-atk_2.30.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.22.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-support/atk/at-spi2-atk_2.26.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.24.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.24.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.22.5.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.24.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.20.5.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.22.7.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/pcmanfm/pcmanfm_1.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.22.6.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.26.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-sato/webkit/webkitgtk_2.22.4.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gstreamer1.0-vaapi_1.14.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gstreamer1.0-vaapi_1.16.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gstreamer1.0-python_1.16.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gstreamer1.0-vaapi_1.14.4.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gstreamer1.0-vaapi_1.14.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gstreamer1.0-python_1.14.4.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-multimedia/gstreamer/gst-examples_git.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/xvideo-tests/xvideo-tests_git.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/xorg-lib/libxcb_1.13.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/xorg-lib/libxcb_1.13.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/xorg-lib/libxcb_1.13.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/wayland/weston_5.0.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/wayland/weston_6.0.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/vulkan/vulkan_1.1.73.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/waffle/waffle_1.5.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/wayland/weston_6.0.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/virglrenderer/virglrenderer_0.7.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/virglrenderer/virglrenderer_0.7.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/virglrenderer/virglrenderer_0.7.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva-utils_2.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva_2.4.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/mesa/mesa-demos_8.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva-utils_2.4.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libepoxy/libepoxy_1.5.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/mesa/libglu_9.0.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva_2.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva_2.4.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva-utils_2.2.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/libva/libva_2.2.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/libdazzle/libdazzle_3.32.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/eglinfo/eglinfo-fb_1.0.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/eglinfo/eglinfo-x11_1.0.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/libnotify/libnotify_0.7.7.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-graphics/eglinfo/eglinfo-wayland_1.0.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/libdazzle/libdazzle_3.30.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/gtk+/gtk+_2.24.32.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/gnome/gnome-themes-standard_3.22.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/libdazzle/libdazzle_3.32.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.28.3.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/gcr/gcr_3.28.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.32.1.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/libdazzle/libdazzle_3.32.1.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/gcr/gcr_3.28.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.30.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.32.4.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.30.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.32.2.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-gnome/epiphany/epiphany_3.32.3.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/pam/libpam_1.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/pam/libpam_1.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/pam/libpam_1.3.0.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/packagegroups/packagegroup-core-lsb.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/images/core-image-lsb.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/images/core-image-lsb-sdk.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-extended/images/core-image-lsb-dev.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-devtools/mtools/mtools_4.0.19.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-devtools/mtools/mtools_4.0.19.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-devtools/mtools/mtools_4.0.19.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/udev/eudev_3.2.5.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/systemd/systemd_242.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/udev/eudev_3.2.7.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/readline/readline_7.0.bb: Unable to get checksum for readline-native SRC_URI entry rl-native.map: file could not be found
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/systemd/systemd_241.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/systemd/systemd_239.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/libxml/libxml2_2.9.8.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/libxml/libxml2_2.9.8.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-core/libxml/libxml2_2.9.8.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-WARNING: /home/iwamatsu/dev/yocto/yocto-recipe-lists/w/poky-master/meta/recipes-bsp/usbutils/usbutils_010.bb: distro_features_check.bbclass is deprecated, please use features_check.bbclass instead
-done.
-Parsing of 2014 .bb files complete (0 cached, 2014 parsed). 3640 targets, 186 skipped, 0 masked, 0 errors.
+Loading cache...done.
+Loaded 3640 entries from dependency cache.
 
-Summary: There were 96 WARNING messages shown.
+Summary: There was 1 WARNING message shown.
 === Available recipes: ===
 acl:
   meta                 2.2.53
   meta                 2.2.52
 acpica:
   meta                 20191213
+  meta                 20180508
   meta                 20190405
-  meta                 20191018
   meta                 20190509
   meta                 20190816
-  meta                 20180508
+  meta                 20191018
 acpid:
   meta                 2.0.32
   meta                 2.0.30
   meta                 2.0.31
 adwaita-icon-theme:
   meta                 3.34.3
-  meta                 3.30.1
   meta                 3.28.0
-  meta                 3.34.0
+  meta                 3.30.1
   meta                 3.32.0
+  meta                 3.34.0
 alsa-lib:
   meta                 1.2.1.2
-  meta                 1.1.9
-  meta                 1.1.8
   meta                 1.1.6
+  meta                 1.1.8
+  meta                 1.1.9
 alsa-plugins:
   meta                 1.2.1
   meta                 1.1.6
-  meta                 1.1.9
   meta                 1.1.8
+  meta                 1.1.9
 alsa-state:
   meta                 0.2.0
 alsa-tools:
@@ -141,14 +46,14 @@ alsa-ucm-conf:
   meta                 1.2.1.2
 alsa-utils:
   meta                 1.2.1
-  meta                 1.1.9
-  meta                 1.1.8
   meta                 1.1.6
+  meta                 1.1.8
+  meta                 1.1.9
 alsa-utils-scripts:
   meta                 1.2.1
   meta                 1.1.6
-  meta                 1.1.9
   meta                 1.1.8
+  meta                 1.1.9
 apmd:
   meta                 3.2.2-15
 apr:
@@ -169,8 +74,8 @@ asciidoc:
   meta                 8.6.9+py3-gitAUTOINC+618f6e6f6b
 aspell:
   meta                 0.60.8
-  meta                 0.60.7
   meta                 0.60.6.1
+  meta                 0.60.7
 assimp:
   meta                 5.0.1
   meta                 4.1.0
@@ -180,12 +85,12 @@ at:
   meta                 3.1.20
 at-spi2-atk:
   meta                 2.32.0
-  meta                 2.30.0
   meta                 2.26.2
+  meta                 2.30.0
 at-spi2-core:
   meta                 2.32.1
-  meta                 2.30.0
   meta                 2.28.0
+  meta                 2.30.0
 atk:
   meta                 2.32.0
   meta                 2.28.1
@@ -246,17 +151,17 @@ binutils-crosssdk-x86_64-pokysdk-linux:
   meta                 2.32.0
 bison:
   meta                 3.5.1
-  meta                 3.4.2
-  meta                 3.3.2
   meta                 3.0.4
   meta                 3.1
-  meta                 3.5
+  meta                 3.3.2
   meta                 3.4.1
+  meta                 3.4.2
+  meta                 3.5
 bjam-native:
   meta                 1.72.0
-  meta                 1.71.0
-  meta                 1.69.0
   meta                 1.68.0
+  meta                 1.69.0
+  meta                 1.71.0
 blktool:
   meta                 4-7.1
   meta                 4-7
@@ -270,27 +175,27 @@ bmap-tools:
   meta                 3.4
 boost:
   meta                 1.72.0
-  meta                 1.71.0
   meta                 1.68.0
   meta                 1.69.0
+  meta                 1.71.0
 bootchart2:
   meta                 0.14.8+gitAUTOINC+331ada031f
 bsd-headers:
   meta                 unknown (skipped)
 btrfs-tools:
   meta                 5.4.1
-  meta                 5.4
-  meta                 5.2.1
-  meta                 4.20.2
-  meta                 5.2.2
-  meta                 5.3
-  meta                 5.3.1
-  meta                 4.19
   meta                 4.17.1
   meta                 4.19.1
+  meta                 4.19
+  meta                 4.20.1
+  meta                 4.20.2
   meta                 5.1.1
   meta                 5.1
-  meta                 4.20.1
+  meta                 5.2.1
+  meta                 5.2.2
+  meta                 5.3.1
+  meta                 5.3
+  meta                 5.4
 build-appliance-image:
   meta                 15.0.0
 build-compare:
@@ -305,10 +210,10 @@ buildtools-tarball:
   meta                 1.0
 busybox:
   meta                 1.31.1
-  meta                 1.31.0
   meta                 1.29.2
-  meta                 1.30.1
   meta                 1.29.3
+  meta                 1.30.1
+  meta                 1.31.0
 busybox-inittab:
   meta                 1.31.0
   meta                 1.29.2
@@ -316,8 +221,8 @@ busybox-inittab:
   meta                 1.30.1
 bzip2:
   meta                 1.0.8
-  meta                 1.0.7
   meta                 1.0.6
+  meta                 1.0.7
 ca-certificates:
   meta                 20190110
   meta                 20180409
@@ -328,11 +233,11 @@ cantarell-fonts:
   meta                 0.0.25
 ccache:
   meta                 3.7.7
+  meta                 3.4.2
   meta                 3.5
   meta                 3.6
-  meta                 3.7.3
   meta                 3.7.1
-  meta                 3.4.2
+  meta                 3.7.3
 cdrtools-native:
   meta                 3.01a31+really3.01
 chkconfig:
@@ -350,33 +255,33 @@ clutter-gtk-1.0:
   meta                 1.8.4
 cmake:
   meta                 3.16.1
-  meta                 3.15.3
-  meta                 3.14.5
-  meta                 3.15.5
   meta                 3.12.2
-  meta                 3.14.0
-  meta                 3.15.1
   meta                 3.13.4
-  meta                 3.15.2
+  meta                 3.14.0
   meta                 3.14.1
+  meta                 3.14.5
+  meta                 3.15.1
+  meta                 3.15.2
+  meta                 3.15.3
+  meta                 3.15.5
 cmake-native:
   meta                 3.16.1
-  meta                 3.15.2
+  meta                 3.12.2
   meta                 3.13.4
   meta                 3.14.0
-  meta                 3.14.5
-  meta                 3.15.3
   meta                 3.14.1
-  meta                 3.15.5
-  meta                 3.12.2
+  meta                 3.14.5
   meta                 3.15.1
+  meta                 3.15.2
+  meta                 3.15.3
+  meta                 3.15.5
 cogl-1.0:
   meta                 1.22.4
   meta                 1.22.2
 connman:
   meta                 1.37
-  meta                 1.36
   meta                 1.35
+  meta                 1.36
 connman-conf:
   meta                 1.0
 connman-gnome:
@@ -441,18 +346,18 @@ cracklib:
   meta                 2.9.5
 createrepo-c:
   meta                 0.15.5
-  meta                 0.15.1
-  meta                 0.14.2
-  meta                 0.15.4
-  meta                 0.12.1
   meta                 0.12.2
+  meta                 0.14.0
+  meta                 0.14.2
   meta                 0.14.3
   meta                 0.15.0
-  meta                 0.14.0
+  meta                 0.15.1
+  meta                 0.15.4
+  meta                 0.12.1
 cronie:
   meta                 1.5.5
-  meta                 1.5.4
   meta                 1.5.2
+  meta                 1.5.4
 cross-localedef-native:
   meta                 2.31
   meta                 2.28
@@ -470,22 +375,22 @@ cryptodev-tests:
 cups:
   meta                 2.3.1
   meta                 2.2.10
-  meta                 2.2.8
   meta                 2.2.11
   meta                 2.2.12
+  meta                 2.2.8
   meta                 2.2.9
 curl:
   meta                 7.68.0
-  meta                 7.64.1
-  meta                 7.65.3
-  meta                 7.67.0
-  meta                 7.65.2
-  meta                 7.65.1
-  meta                 7.64.0
+  meta                 7.61.0
   meta                 7.62.0
   meta                 7.63.0
+  meta                 7.64.0
+  meta                 7.64.1
+  meta                 7.65.1
+  meta                 7.65.2
+  meta                 7.65.3
   meta                 7.66.0
-  meta                 7.61.0
+  meta                 7.67.0
 cve-check-tool:
   meta                 5.6.4
 cve-update-db:
@@ -498,23 +403,23 @@ db:
   meta                 1:5.3.28
 dbus:
   meta                 1.12.16
-  meta                 1.12.14
   meta                 1.12.10
   meta                 1.12.12
+  meta                 1.12.14
 dbus-glib:
   meta                 0.110
 dbus-test:
   meta                 1.12.16
-  meta                 1.12.14
-  meta                 1.12.12
   meta                 1.12.10
+  meta                 1.12.12
+  meta                 1.12.14
 dbus-wait:
   meta                 0.1+gitAUTOINC+6cc6077a36
 debianutils:
   meta                 4.9.1
   meta                 4.8.6.1
-  meta                 4.8.6
   meta                 4.8.6.3
+  meta                 4.8.6
 dejagnu:
   meta                 1.6.2
 depmodwrapper-cross:
@@ -545,8 +450,8 @@ dnf:
   meta                 4.2.2
   meta                 2.7.5
   meta                 4.0.10
-  meta                 4.0.9
   meta                 4.0.4
+  meta                 4.0.9
   meta                 4.1.0
 docbook-xml-dtd4:
   meta                 4.5
@@ -560,23 +465,23 @@ dosfstools:
 dpkg:
   meta                 1.19.7
   meta                 1.18.24
-  meta                 1.19.4
   meta                 1.18.25
+  meta                 1.19.4
 dropbear:
   meta                 2019.78
-  meta                 2019.77
   meta                 2018.76
+  meta                 2019.77
 dtc:
   meta                 1.5.1
-  meta                 1.5.0
   meta                 1.4.7
+  meta                 1.5.0
 dwarfsrcfiles:
   meta                 1.0
 e2fsprogs:
   meta                 1.45.4
-  meta                 1.45.3
   meta                 1.44.3
   meta                 1.44.5
+  meta                 1.45.3
 ed:
   meta                 1.15
   meta                 1.14.2
@@ -592,21 +497,21 @@ eglinfo-x11:
   meta                 1.0.0
 elfutils:
   meta                 0.178
+  meta                 0.173
+  meta                 0.174
+  meta                 0.175
   meta                 0.176
   meta                 0.177
-  meta                 0.174
-  meta                 0.173
-  meta                 0.175
 ell:
   meta                 0.28
-  meta                 0.27
-  meta                 0.26
-  meta                 0.22
   meta                 0.19
   meta                 0.20
+  meta                 0.21
+  meta                 0.22
   meta                 0.23
   meta                 0.25
-  meta                 0.21
+  meta                 0.26
+  meta                 0.27
 enchant:
   meta                 1.6.0
 enchant2:
@@ -616,23 +521,23 @@ encodings:
   meta                 1:1.0.4
 epiphany:
   meta                 3.34.3.1
-  meta                 3.34.2
   meta                 3.28.3.1
+  meta                 3.30.2
   meta                 3.30.3
   meta                 3.32.1.2
-  meta                 3.32.4
-  meta                 3.30.2
   meta                 3.32.2
-  meta                 3.34.1
   meta                 3.32.3
+  meta                 3.32.4
+  meta                 3.34.1
+  meta                 3.34.2
 ethtool:
   meta                 5.4
-  meta                 5.3
   meta                 4.17
-  meta                 5.1
   meta                 4.19
-  meta                 5.2
   meta                 5.0
+  meta                 5.1
+  meta                 5.2
+  meta                 5.3
 eudev:
   meta                 3.2.9
   meta                 3.2.5
@@ -640,9 +545,9 @@ eudev:
   meta                 3.2.8
 expat:
   meta                 2.2.9
-  meta                 2.2.8
   meta                 2.2.6
   meta                 2.2.7
+  meta                 2.2.8
 expect:
   meta                 5.45.4
 ffmpeg:
@@ -656,10 +561,10 @@ ffmpeg:
   meta                 4.2 (skipped)
 file:
   meta                 5.38
-  meta                 5.37
   meta                 5.34
   meta                 5.35
   meta                 5.36
+  meta                 5.37
 findutils:
   meta                 4.7.0
   meta                 4.6.0
@@ -694,14 +599,14 @@ fts:
   meta                 1.2.7 (skipped)
 gawk:
   meta                 5.0.1
-  meta                 5.0.0
   meta                 4.2.1
+  meta                 5.0.0
 gcc:
   meta                 9.1.0
-  meta                 8.3.0
   meta                 7.3.0
-  meta                 9.2.0
   meta                 8.2.0
+  meta                 8.3.0
+  meta                 9.2.0
 gcc-cross-arm:
   meta                 9.1.0
   meta                 7.3.0
@@ -709,11 +614,11 @@ gcc-cross-arm:
   meta                 8.3.0
   meta                 9.2.0
 gcc-cross-canadian-arm:
-  meta                 9.2.0
+  meta                 9.1.0
   meta                 7.3.0
   meta                 8.2.0
   meta                 8.3.0
-  meta                 9.1.0
+  meta                 9.2.0
 gcc-cross-initial-arm:
   meta                 8.2.0
   meta                 7.3.0
@@ -722,22 +627,22 @@ gcc-crosssdk-initial-x86_64-pokysdk-linux:
   meta                 7.3.0
 gcc-crosssdk-x86_64-pokysdk-linux:
   meta                 9.1.0
+  meta                 7.3.0
   meta                 8.2.0
   meta                 8.3.0
   meta                 9.2.0
-  meta                 7.3.0
 gcc-runtime:
-  meta                 9.2.0
-  meta                 8.2.0
-  meta                 8.3.0
   meta                 9.1.0
   meta                 7.3.0
+  meta                 8.2.0
+  meta                 8.3.0
+  meta                 9.2.0
 gcc-sanitizers:
-  meta                 9.2.0
-  meta                 8.3.0
+  meta                 9.1.0
   meta                 7.3.0
   meta                 8.2.0
-  meta                 9.1.0
+  meta                 8.3.0
+  meta                 9.2.0
 gcc-source-7.3.0:
   meta                 7.3.0
 gcc-source-8.2.0:
@@ -752,35 +657,35 @@ gconf:
   meta                 3.2.6
 gcr:
   meta                 3.34.0
-  meta                 3.28.1
   meta                 3.28.0
+  meta                 3.28.1
 gdb:
   meta                 9.1
   meta                 8.2.1
-  meta                 8.3.1
   meta                 8.2
+  meta                 8.3.1
   meta                 8.3
 gdb-cross-arm:
   meta                 9.1
+  meta                 8.2.1
   meta                 8.2
   meta                 8.3.1
   meta                 8.3
-  meta                 8.2.1
 gdb-cross-canadian-arm:
   meta                 9.1
+  meta                 8.2.1
   meta                 8.2
   meta                 8.3.1
   meta                 8.3
-  meta                 8.2.1
 gdbm:
   meta                 1.18.1
   meta                 1.18
 gdk-pixbuf:
   meta                 2.40.0
-  meta                 2.38.2
+  meta                 2.36.11
   meta                 2.38.0
   meta                 2.38.1
-  meta                 2.36.11
+  meta                 2.38.2
 gettext:
   meta                 0.20.1
   meta                 0.19.8.1
@@ -790,45 +695,45 @@ gettext-minimal-native:
 ghostscript:
   meta                 9.50
   meta                 9.25
-  meta                 9.27
   meta                 9.26
+  meta                 9.27
 git:
   meta                 2.24.1
+  meta                 2.18.1
+  meta                 2.20.1
   meta                 2.21.0
   meta                 2.22.0
-  meta                 2.23.0
-  meta                 2.18.1
   meta                 2.22.1
-  meta                 2.20.1
+  meta                 2.23.0
   meta                 2.24.0
 glew:
   meta                 2.1.0
 glib-2.0:
   meta                 1:2.62.4
-  meta                 1:2.60.5
-  meta                 1:2.62.2
-  meta                 1:2.60.4
   meta                 1:2.58.0
-  meta                 1:2.60.6
-  meta                 1:2.60.7
-  meta                 1:2.62.3
   meta                 1:2.58.3
   meta                 1:2.60.3
+  meta                 1:2.60.4
+  meta                 1:2.60.5
+  meta                 1:2.60.6
+  meta                 1:2.60.7
   meta                 1:2.62.1
+  meta                 1:2.62.2
+  meta                 1:2.62.3
 glib-networking:
   meta                 2.62.3
   meta                 2.54.1
   meta                 2.58.0
-  meta                 2.62.1
   meta                 2.60.1
   meta                 2.60.2
-  meta                 2.62.2
   meta                 2.60.3
+  meta                 2.62.1
+  meta                 2.62.2
 glibc:
   meta                 2.31
-  meta                 2.31
-  meta                 2.31
   meta                 2.29
+  meta                 2.31
+  meta                 2.31
 glibc-initial:
   meta                 2.31
 glibc-locale:
@@ -865,36 +770,36 @@ gnu-config:
   meta                 20200117+gitAUTOINC+5256817ace
 gnu-efi:
   meta                 3.0.11
-  meta                 3.0.9
   meta                 3.0.10
   meta                 3.0.8
+  meta                 3.0.9
 gnupg:
   meta                 2.2.19
-  meta                 2.2.9
-  meta                 2.2.12
-  meta                 2.2.15
-  meta                 2.2.16
   meta                 2.2.10
   meta                 2.2.11
-  meta                 2.2.17
+  meta                 2.2.12
   meta                 2.2.13
+  meta                 2.2.15
+  meta                 2.2.16
+  meta                 2.2.17
+  meta                 2.2.9
 gnutls:
   meta                 3.6.11.1
   meta                 3.6.3
-  meta                 3.6.5
-  meta                 3.6.8
-  meta                 3.6.7
   meta                 3.6.4
+  meta                 3.6.5
+  meta                 3.6.7
+  meta                 3.6.8
 go:
   meta                 1.13.5
-  meta                 1.12.9
   meta                 1.11.4
+  meta                 1.12.9
   meta                 1.9.7
 go-cross-armv7vet2hf-neon:
   meta                 1.13.5
-  meta                 1.9.7
   meta                 1.11.4
   meta                 1.12.9
+  meta                 1.9.7
 go-cross-canadian-arm:
   meta                 1.13.5
   meta                 1.11.4
@@ -912,29 +817,29 @@ go-helloworld:
   meta                 0.1
 go-native:
   meta                 1.13.5
-  meta                 1.12.9
   meta                 1.11.4
+  meta                 1.12.9
   meta                 1.9.7
 go-runtime:
   meta                 1.13.5
-  meta                 1.9.7
   meta                 1.11.4
   meta                 1.12.9
+  meta                 1.9.7
 gobject-introspection:
   meta                 1.62.0
-  meta                 1.60.1
   meta                 1.58.0
   meta                 1.58.1
-  meta                 1.60.2
-  meta                 1.58.3
   meta                 1.58.2
+  meta                 1.58.3
+  meta                 1.60.1
+  meta                 1.60.2
 gperf:
   meta                 3.1
 gpgme:
   meta                 1.13.1
+  meta                 1.11.1
   meta                 1.12.0
   meta                 1.13.0
-  meta                 1.11.1
 gptfdisk:
   meta                 1.0.4
 grep:
@@ -960,22 +865,22 @@ grub-native:
   meta                 2.02 (skipped)
 gsettings-desktop-schemas:
   meta                 3.34.0
+  meta                 3.28.0
   meta                 3.28.1
   meta                 3.32.0
-  meta                 3.28.0
 gst-examples:
   meta                 1.16.0
   meta                 1.16.0
 gst-validate:
   meta                 1.16.1
-  meta                 1.16.0
-  meta                 1.14.4
   meta                 1.14.2
+  meta                 1.14.4
+  meta                 1.16.0
 gstreamer1.0:
   meta                 1.16.1
-  meta                 1.14.4
   meta                 1.14.2
   meta                 1.14.3
+  meta                 1.14.4
   meta                 1.16.0
 gstreamer1.0-libav:
   meta                 1.14.2 (skipped)
@@ -993,22 +898,22 @@ gstreamer1.0-omx:
   meta                 1.16.1 (skipped)
 gstreamer1.0-plugins-bad:
   meta                 1.16.1
-  meta                 1.16.0
-  meta                 1.14.4
-  meta                 1.14.3
   meta                 1.14.2
+  meta                 1.14.3
+  meta                 1.14.4
+  meta                 1.16.0
 gstreamer1.0-plugins-base:
   meta                 1.16.1
   meta                 1.14.2
+  meta                 1.14.3
   meta                 1.14.4
   meta                 1.16.0
-  meta                 1.14.3
 gstreamer1.0-plugins-good:
   meta                 1.16.1
-  meta                 1.16.0
   meta                 1.14.2
   meta                 1.14.3
   meta                 1.14.4
+  meta                 1.16.0
 gstreamer1.0-plugins-ugly:
   meta                 1.14.2 (skipped)
   meta                 1.14.3 (skipped)
@@ -1017,35 +922,35 @@ gstreamer1.0-plugins-ugly:
   meta                 1.16.1 (skipped)
 gstreamer1.0-python:
   meta                 1.16.1
-  meta                 1.14.3
   meta                 1.14.2
-  meta                 1.16.0
+  meta                 1.14.3
   meta                 1.14.4
+  meta                 1.16.0
 gstreamer1.0-rtsp-server:
   meta                 1.16.1
-  meta                 1.14.4
-  meta                 1.14.3
-  meta                 1.16.0
   meta                 1.14.2
+  meta                 1.14.3
+  meta                 1.14.4
+  meta                 1.16.0
 gstreamer1.0-vaapi:
   meta                 1.16.1
-  meta                 1.14.3
-  meta                 1.16.0
-  meta                 1.14.4
   meta                 1.14.2
+  meta                 1.14.3
+  meta                 1.14.4
+  meta                 1.16.0
 gtk+:
   meta                 2.24.32
 gtk+3:
   meta                 3.24.13
-  meta                 3.24.5
-  meta                 3.24.1
-  meta                 3.24.8
   meta                 3.22.30
+  meta                 3.24.1
+  meta                 3.24.5
+  meta                 3.24.8
 gtk-doc:
   meta                 1.32
-  meta                 1.31
-  meta                 1.30
   meta                 1.29
+  meta                 1.30
+  meta                 1.31
 gtk-icon-utils-native:
   meta                 3.22.30
 gzip:
@@ -1053,21 +958,21 @@ gzip:
   meta                 1.9
 harfbuzz:
   meta                 2.6.4
-  meta                 2.3.1
-  meta                 2.1.3
-  meta                 2.5.3
-  meta                 2.4.0
-  meta                 2.6.1
-  meta                 2.2.0
-  meta                 1.9.0
   meta                 1.8.8
+  meta                 1.9.0
+  meta                 2.1.3
+  meta                 2.2.0
+  meta                 2.3.1
+  meta                 2.4.0
+  meta                 2.5.3
+  meta                 2.6.1
 hdparm:
   meta                 9.58
   meta                 9.56
 help2man-native:
   meta                 1.47.11
-  meta                 1.47.6
   meta                 1.47.10
+  meta                 1.47.6
 hicolor-icon-theme:
   meta                 0.17
 hwlatdetect:
@@ -1079,14 +984,14 @@ icecc-create-env:
   meta                 0.1
 icu:
   meta                 65.1
-  meta                 64.2
-  meta                 64.1
-  meta                 63.1
   meta                 62.1
+  meta                 63.1
+  meta                 64.1
+  meta                 64.2
 ifupdown:
   meta                 0.8.35
-  meta                 0.8.22
   meta                 0.8.16
+  meta                 0.8.22
 inetutils:
   meta                 1.9.4
 init-ifupdown:
@@ -1119,17 +1024,17 @@ intltool:
   meta                 0.51.0
 iproute2:
   meta                 5.5.0
-  meta                 5.1.0
   meta                 4.18.0
   meta                 4.19.0
+  meta                 5.0.0
+  meta                 5.1.0
   meta                 5.2.0
   meta                 5.3.0
-  meta                 5.0.0
 iptables:
   meta                 1.8.4
-  meta                 1.8.3
   meta                 1.6.2
   meta                 1.8.2
+  meta                 1.8.3
 iputils:
   meta                 s20190709
   meta                 s20180629
@@ -1138,8 +1043,8 @@ irda-utils:
 iso-codes:
   meta                 4.4
   meta                 4.1
-  meta                 4.3
   meta                 4.2
+  meta                 4.3
 itstool:
   meta                 2.0.6
 iw:
@@ -1161,8 +1066,8 @@ kernel-devsrc:
   meta                 1.0
 kexec-tools:
   meta                 2.0.20
-  meta                 2.0.18
   meta                 2.0.17
+  meta                 2.0.18
   meta                 2.0.19
 keymaps:
   meta                 1.0
@@ -1180,9 +1085,9 @@ ldconfig-native:
   meta                 2.12.1
 less:
   meta                 551
-  meta                 550
-  meta                 549
   meta                 530
+  meta                 549
+  meta                 550
 liba52:
   meta                 0.7.4
 libacpi:
@@ -1191,26 +1096,26 @@ libaio:
   meta                 0.3.111
 libarchive:
   meta                 3.4.1
-  meta                 3.4.0
   meta                 3.3.3
+  meta                 3.4.0
 libart-lgpl:
   meta                 2.3.21
 libassuan:
   meta                 2.5.3
-  meta                 2.5.2
   meta                 2.5.1
+  meta                 2.5.2
 libatomic-ops:
   meta                 7.6.10
-  meta                 7.6.8
   meta                 7.6.6+gitAUTOINC+76ffb3b879
+  meta                 7.6.8
 libbsd:
   meta                 0.10.0
   meta                 0.9.1
 libcap:
   meta                 2.31
-  meta                 2.27
-  meta                 2.26
   meta                 2.25
+  meta                 2.26
+  meta                 2.27
 libcap-ng:
   meta                 0.7.10
   meta                 0.7.9
@@ -1221,8 +1126,8 @@ libcgroup:
   meta                 0.41
 libcheck:
   meta                 0.14.0
-  meta                 0.13.0
   meta                 0.12.0
+  meta                 0.13.0
 libcomps:
   meta                 0.1.14
 libconvert-asn1-perl:
@@ -1234,26 +1139,26 @@ libdaemon:
   meta                 0.14
 libdazzle:
   meta                 3.34.1
-  meta                 3.32.3
   meta                 3.30.2
-  meta                 3.32.2
   meta                 3.32.1
+  meta                 3.32.2
+  meta                 3.32.3
 libdmx:
   meta                 1:1.1.4
 libdnf:
   meta                 0.28.1
   meta                 0.11.1
-  meta                 0.24.1
   meta                 0.22.0
-  meta                 0.26.0
   meta                 0.22.3
+  meta                 0.24.1
+  meta                 0.26.0
 libdrm:
   meta                 2.4.100
-  meta                 2.4.97
   meta                 2.4.94
-  meta                 2.4.99
-  meta                 2.4.98
   meta                 2.4.96
+  meta                 2.4.97
+  meta                 2.4.98
+  meta                 2.4.99
 libedit:
   meta                 20191231-3.1
   meta                 20190324-3.1
@@ -1266,25 +1171,25 @@ liberation-fonts:
   meta                 1:2.00.1
 liberror-perl:
   meta                 0.17028
-  meta                 0.17027
   meta                 0.17026
+  meta                 0.17027
 libevdev:
   meta                 1.8.0
-  meta                 1.7.0
-  meta                 1.6.0
   meta                 1.5.9
+  meta                 1.6.0
+  meta                 1.7.0
 libevent:
   meta                 2.1.11
-  meta                 2.1.8
   meta                 2.1.10
+  meta                 2.1.8
 libexif:
   meta                 0.6.21
 libfakekey:
   meta                 0.3+gitAUTOINC+7ad885912e
 libffi:
   meta                 3.3
-  meta                 3.3~rc0
   meta                 3.2.1
+  meta                 3.3~rc0
 libfm:
   meta                 1.3.1
   meta                 1.3.0.2
@@ -1298,8 +1203,8 @@ libgcc:
   meta                 9.1.0
   meta                 7.3.0
   meta                 8.2.0
-  meta                 9.2.0
   meta                 8.3.0
+  meta                 9.2.0
 libgcc-initial:
   meta                 9.1.0
   meta                 7.3.0
@@ -1308,8 +1213,8 @@ libgcc-initial:
   meta                 9.2.0
 libgcrypt:
   meta                 1.8.5
-  meta                 1.8.4
   meta                 1.8.3
+  meta                 1.8.4
 libgfortran:
   meta                 7.3 (skipped)
   meta                 8.2 (skipped)
@@ -1337,9 +1242,9 @@ libgudev:
   meta                 232
 libical:
   meta                 3.0.7
-  meta                 3.0.6
   meta                 2.0.0
   meta                 3.0.5
+  meta                 3.0.6
 libice:
   meta                 1:1.0.10
   meta                 1:1.0.9
@@ -1349,29 +1254,29 @@ libidn:
   meta                 1.35
 libidn2:
   meta                 2.3.0
-  meta                 2.2.0
   meta                 2.0.5
+  meta                 2.2.0
 libinput:
   meta                 1.14.3
-  meta                 1.14.0
+  meta                 1.11.3
   meta                 1.12.1
+  meta                 1.12.3
   meta                 1.12.6
+  meta                 1.13.0
   meta                 1.13.1
   meta                 1.13.2
-  meta                 1.13.0
-  meta                 1.13.4
-  meta                 1.11.3
-  meta                 1.14.1
   meta                 1.13.3
-  meta                 1.12.3
+  meta                 1.13.4
+  meta                 1.14.0
+  meta                 1.14.1
 libjitterentropy:
   meta                 2.2.0
   meta                 2.1.2
 libjpeg-turbo:
   meta                 1:2.0.4
   meta                 1:2.0.0
-  meta                 1:2.0.2
   meta                 1:2.0.1
+  meta                 1:2.0.2
   meta                 1:2.0.3
 libksba:
   meta                 1.3.5
@@ -1427,17 +1332,17 @@ libpcre:
   meta                 8.42
 libpcre2:
   meta                 10.34
-  meta                 10.33
-  meta                 10.32
   meta                 10.31
+  meta                 10.32
+  meta                 10.33
 libpipeline:
   meta                 1.5.2
   meta                 1.5.0
   meta                 1.5.1
 libpng:
   meta                 1.6.37
-  meta                 1.6.36
   meta                 1.6.35
+  meta                 1.6.36
 libproxy:
   meta                 0.4.15
 libpsl:
@@ -1447,18 +1352,18 @@ libpthread-stubs:
   meta                 0.4
 librepo:
   meta                 1.11.2
-  meta                 1.11.0
-  meta                 1.8.1
   meta                 1.10.2
-  meta                 1.9.4
-  meta                 1.11.1
-  meta                 1.9.2
-  meta                 1.10.5
   meta                 1.10.3
-  meta                 1.9.3
   meta                 1.10.4
-  meta                 1.9.6
+  meta                 1.10.5
   meta                 1.10.6
+  meta                 1.11.0
+  meta                 1.11.1
+  meta                 1.8.1
+  meta                 1.9.2
+  meta                 1.9.3
+  meta                 1.9.4
+  meta                 1.9.6
 librsvg:
   meta                 2.40.20
 libsamplerate0:
@@ -1467,15 +1372,15 @@ libsdl:
   meta                 1.2.15
 libsdl2:
   meta                 2.0.10
-  meta                 2.0.9
   meta                 2.0.8
+  meta                 2.0.9
 libsecret:
   meta                 0.20.0
-  meta                 0.19.0
-  meta                 0.18.7
-  meta                 0.19.1
-  meta                 0.18.8
   meta                 0.18.6
+  meta                 0.18.7
+  meta                 0.18.8
+  meta                 0.19.0
+  meta                 0.19.1
 libsm:
   meta                 1:1.2.3
   meta                 1:1.2.2
@@ -1483,28 +1388,28 @@ libsndfile1:
   meta                 1.0.28
 libsolv:
   meta                 0.7.10
-  meta                 0.7.4
-  meta                 0.7.8
-  meta                 0.7.3
-  meta                 0.7.2
   meta                 0.6.35
+  meta                 0.7.1
+  meta                 0.7.2
+  meta                 0.7.3
+  meta                 0.7.4
   meta                 0.7.5
   meta                 0.7.6
-  meta                 0.7.1
+  meta                 0.7.8
 libsoup-2.4:
   meta                 2.68.3
-  meta                 2.66.4
+  meta                 2.62.3
   meta                 2.64.2
   meta                 2.66.1
-  meta                 2.62.3
   meta                 2.66.2
+  meta                 2.66.4
 libssp-nonshared:
   meta                 unknown (skipped)
 libtasn1:
   meta                 4.16.0
-  meta                 4.15.0
   meta                 4.13
   meta                 4.14
+  meta                 4.15.0
 libtest-needs-perl:
   meta                 0.002006
   meta                 0.002005
@@ -1514,8 +1419,8 @@ libtimedate-perl:
   meta                 2.30
 libtirpc:
   meta                 1.2.5
-  meta                 1.1.4
   meta                 1.0.3
+  meta                 1.1.4
 libtool:
   meta                 2.4.6
 libtool-cross:
@@ -1542,31 +1447,31 @@ libusb1:
   meta                 1.0.22
 libva:
   meta                 2.6.1
-  meta                 2.5.0
-  meta                 2.4.0
-  meta                 2.6.0
-  meta                 2.3.0
-  meta                 2.4.1
   meta                 2.2.0
+  meta                 2.3.0
+  meta                 2.4.0
+  meta                 2.4.1
+  meta                 2.5.0
+  meta                 2.6.0
 libva-utils:
   meta                 2.6.0
-  meta                 2.3.0
-  meta                 2.5.0
-  meta                 2.4.0
   meta                 2.2.0
+  meta                 2.3.0
+  meta                 2.4.0
+  meta                 2.5.0
 libvorbis:
   meta                 1.3.6
 libwebp:
   meta                 1.1.0
-  meta                 1.0.1
   meta                 1.0.0
-  meta                 1.0.3
+  meta                 1.0.1
   meta                 1.0.2
+  meta                 1.0.3
 libx11:
   meta                 1:1.6.9
+  meta                 1:1.6.6
   meta                 1:1.6.7
   meta                 1:1.6.8
-  meta                 1:1.6.6
 libx11-compose-data:
   meta                 1.6.7 (skipped)
   meta                 1.6.8 (skipped)
@@ -1585,18 +1490,18 @@ libxcomposite:
   meta                 1:0.4.4
 libxcrypt:
   meta                 4.4.12
-  meta                 4.4.8
+  meta                 4.4.2
+  meta                 4.1.1
   meta                 4.4.1
   meta                 4.4.10
   meta                 4.4.4
   meta                 4.4.6
-  meta                 4.4.2
-  meta                 4.1.1
+  meta                 4.4.8
 libxcrypt-compat:
   meta                 4.4.12
-  meta                 4.4.8
   meta                 4.4.10
   meta                 4.4.6
+  meta                 4.4.8
 libxcursor:
   meta                 1:1.2.0
   meta                 1:1.1.15
@@ -1627,8 +1532,8 @@ libxinerama:
 libxkbcommon:
   meta                 0.9.1
   meta                 0.8.2
-  meta                 0.8.4
   meta                 0.8.3
+  meta                 0.8.4
 libxkbfile:
   meta                 1:1.1.0
   meta                 1:1.0.9
@@ -1648,8 +1553,8 @@ libxml-simple-perl:
   meta                 2.25
 libxml2:
   meta                 2.9.10
-  meta                 2.9.9
   meta                 2.9.8
+  meta                 2.9.9
 libxmu:
   meta                 1:1.1.3
   meta                 1:1.1.2
@@ -1669,8 +1574,8 @@ libxshmfence:
   meta                 1.3
 libxslt:
   meta                 1.1.34
-  meta                 1.1.33
   meta                 1.1.32
+  meta                 1.1.33
 libxt:
   meta                 1:1.2.0
   meta                 1:1.1.5
@@ -1680,8 +1585,8 @@ libxv:
   meta                 1.0.11
 libxvmc:
   meta                 1:1.0.12
-  meta                 1:1.0.11
   meta                 1:1.0.10
+  meta                 1:1.0.11
 libxxf86dga:
   meta                 1:1.1.5
   meta                 1:1.1.4
@@ -1694,31 +1599,31 @@ libyaml:
   meta                 0.2.1
 lighttpd:
   meta                 1.4.55
-  meta                 1.4.51
-  meta                 1.4.54
   meta                 1.4.50
+  meta                 1.4.51
   meta                 1.4.52
   meta                 1.4.53
+  meta                 1.4.54
 linux-dummy:
   meta                 unknown (skipped)
 linux-firmware:
   meta                 1:20200117
-  meta                 1:20190815
   meta                 1:20190618
+  meta                 1:20190815
   meta                 1:0.0+gitAUTOINC+711d3297ba
 linux-libc-headers:
   meta                 5.4
-  meta                 5.2
   meta                 4.18
-  meta                 5.0
   meta                 4.19
+  meta                 5.0
+  meta                 5.2
 linux-yocto:
   meta                 5.2.28+gitAUTOINC+dd6019025c_ed43b791f2
-  meta                 4.19.87+gitAUTOINC+4f5d761316_19fa1657d1
   meta                 4.14.76+gitAUTOINC+3435617380_91251c7c3d
   meta                 4.18.27+gitAUTOINC+9e348b6f9d_e66e05d38c
-  meta                 5.4.15
+  meta                 4.19.87+gitAUTOINC+4f5d761316_19fa1657d1
   meta                 5.0.19+gitAUTOINC+7f6e97c357_d1ed980ad9
+  meta                 5.4.15
 linux-yocto-dev:
   meta                 unknown (skipped)
 linux-yocto-rt:
@@ -1756,39 +1661,39 @@ lsof:
 ltp:
   meta                 20190930
   meta                 20180515
-  meta                 20190517
   meta                 20180926
   meta                 20190115
+  meta                 20190517
 lttng-modules:
   meta                 2.11.1
-  meta                 2.10.7
-  meta                 2.10.9
   meta                 2.10.10+gitAUTOINC+624aca5d75
   meta                 2.10.10
   meta                 2.10.10+gitAUTOINC+624aca5d75
   meta                 2.10.11
+  meta                 2.10.7
+  meta                 2.10.8
+  meta                 2.10.9
   meta                 2.10.10+gitAUTOINC+624aca5d75
   meta                 2.11.0
-  meta                 2.10.8
 lttng-tools:
   meta                 2.11.0
-  meta                 2.10.6
   meta                 2.10.5
+  meta                 2.10.6
   meta                 2.10.7
   meta                 2.9.5
 lttng-ust:
   meta                 2:2.11.0
-  meta                 2:2.10.5
   meta                 2:2.10.1
-  meta                 2:2.10.4
-  meta                 2:2.10.3
   meta                 2:2.10.2
+  meta                 2:2.10.3
+  meta                 2:2.10.4
+  meta                 2:2.10.5
 lz4:
   meta                 1:1.9.2
-  meta                 1:1.8.3
-  meta                 1:1.9.1
   meta                 1:1.8.2
+  meta                 1:1.8.3
   meta                 1:1.9.0
+  meta                 1:1.9.1
 lzip:
   meta                 1.21
   meta                 1.20
@@ -1812,16 +1717,16 @@ makedevs:
   meta                 1.0.1
 man-db:
   meta                 2.9.0
+  meta                 2.8.3
   meta                 2.8.4
-  meta                 2.8.7
   meta                 2.8.5
   meta                 2.8.6.1
-  meta                 2.8.3
+  meta                 2.8.7
 man-pages:
   meta                 5.04
+  meta                 4.16
   meta                 5.01
   meta                 5.03
-  meta                 4.16
 matchbox-config-gtk:
   meta                 0.2
 matchbox-desktop:
@@ -1852,18 +1757,18 @@ menu-cache:
   meta                 1.0.2
 mesa:
   meta                 2:19.3.3
-  meta                 2:19.1.1
-  meta                 2:19.0.6
   meta                 2:18.1.9
-  meta                 2:19.2.4
-  meta                 2:19.1.6
-  meta                 2:19.3.1
-  meta                 2:19.0.0
   meta                 2:18.3.4
-  meta                 2:19.0.5
-  meta                 2:19.1.0
+  meta                 2:19.0.0
   meta                 2:19.0.1
   meta                 2:19.0.3
+  meta                 2:19.0.5
+  meta                 2:19.0.6
+  meta                 2:19.1.0
+  meta                 2:19.1.1
+  meta                 2:19.1.6
+  meta                 2:19.2.4
+  meta                 2:19.3.1
 mesa-demos:
   meta                 8.4.0
   meta                 8.3.0
@@ -1907,15 +1812,15 @@ mesa-gl:
   meta                 19.3.3 (skipped)
 meson:
   meta                 0.53.0
-  meta                 0.52.0
-  meta                 0.49.2
-  meta                 0.51.1
-  meta                 0.52.1
   meta                 0.47.2
+  meta                 0.49.0
+  meta                 0.49.2
   meta                 0.50.0
   meta                 0.50.1
-  meta                 0.49.0
+  meta                 0.51.1
   meta                 0.51.2
+  meta                 0.52.0
+  meta                 0.52.1
 meta-environment-extsdk-qemuarm:
   meta                 1.0
 meta-environment-qemuarm:
@@ -1957,15 +1862,15 @@ mpfr:
   meta                 4.0.1
 mpg123:
   meta                 1.25.13
-  meta                 1.25.12
-  meta                 1.25.11
   meta                 1.25.10
+  meta                 1.25.11
+  meta                 1.25.12
 msmtp:
   meta                 1.8.7
   meta                 1.6.6
-  meta                 1.8.5
   meta                 1.8.3
   meta                 1.8.4
+  meta                 1.8.5
   meta                 1.8.6
 mtd-utils:
   meta                 2.1.1
@@ -1986,8 +1891,8 @@ mx-1.0:
   meta                 1.4.7+gitAUTOINC+9b1db6b806
 nasm:
   meta                 2.14.02
-  meta                 2.14
   meta                 2.13.03
+  meta                 2.14
 nativesdk-buildtools-perl-dummy:
   meta                 1.0
 nativesdk-icecc-toolchain:
@@ -1996,15 +1901,15 @@ nativesdk-libtool:
   meta                 2.4.6
 nativesdk-meson:
   meta                 0.53.0
-  meta                 0.52.1
-  meta                 0.51.1
   meta                 0.47.2
-  meta                 0.50.0
-  meta                 0.51.2
   meta                 0.49.0
-  meta                 0.52.0
   meta                 0.49.2
+  meta                 0.50.0
   meta                 0.50.1
+  meta                 0.51.1
+  meta                 0.51.2
+  meta                 0.52.0
+  meta                 0.52.1
 nativesdk-packagegroup-sdk-host:
   meta                 1.0
 nativesdk-qemu-helper:
@@ -2016,10 +1921,10 @@ nativesdk-syslinux:
   meta                 6.03 (skipped)
 ncurses:
   meta                 6.1+20191019
-  meta                 6.1+20181013
   meta                 6.1+20180630
-  meta                 6.1+20190803
   meta                 6.1+20180714
+  meta                 6.1+20181013
+  meta                 6.1+20190803
 neard:
   meta                 0.16
 net-tools:
@@ -2028,13 +1933,13 @@ netbase:
   meta                 1:6.0
   meta                 1:5.4
   meta                 1:5.5
-  meta                 1:5.7
   meta                 1:5.6
+  meta                 1:5.7
   meta                 1:5.8
 nettle:
   meta                 3.5.1
-  meta                 3.4
   meta                 3.4.1
+  meta                 3.4
 newlib:
   meta                 3.0.0 (skipped)
   meta                 3.1.0 (skipped)
@@ -2054,20 +1959,20 @@ npth:
 nspr:
   meta                 4.24
   meta                 4.19
-  meta                 4.23
   meta                 4.20
   meta                 4.21
+  meta                 4.23
 nss:
   meta                 3.49.1
-  meta                 3.40
-  meta                 3.45
-  meta                 3.43
-  meta                 3.41
-  meta                 3.39
   meta                 3.38
+  meta                 3.39
+  meta                 3.40
+  meta                 3.41
   meta                 3.42.1
+  meta                 3.43
   meta                 3.44.1
   meta                 3.44
+  meta                 3.45
 nss-myhostname:
   meta                 0.3
 ofono:
@@ -2082,35 +1987,35 @@ opensbi:
   meta                 0.5 (skipped)
 openssh:
   meta                 8.2p1
+  meta                 7.8p1+git
+  meta                 7.9p1+git
   meta                 7.9p1
   meta                 8.0p1
   meta                 8.1p1
-  meta                 7.8p1+git
-  meta                 7.9p1+git
 openssl:
   meta                 1.1.1d
+  meta                 1.1.1
   meta                 1.1.1a
   meta                 1.1.1b
   meta                 1.1.1c
-  meta                 1.1.1
 openssl10:
   meta                 1.0.2r
-  meta                 1.0.2q
   meta                 1.0.2p
+  meta                 1.0.2q
 opkg:
   meta                 1:0.4.2
+  meta                 1:0.3.6
   meta                 1:0.4.0
   meta                 1:0.4.1
-  meta                 1:0.3.6
 opkg-arch-config:
   meta                 1.0
 opkg-keyrings:
   meta                 1.0
 opkg-utils:
   meta                 0.4.2
-  meta                 0.4.1
   meta                 0.3.6
   meta                 0.4.0
+  meta                 0.4.1
 orc:
   meta                 0.4.31
   meta                 0.4.28
@@ -2180,10 +2085,10 @@ packagegroup-self-hosted:
   meta                 1.0
 pango:
   meta                 1.44.7
-  meta                 1.44.6
   meta                 1.42.4
-  meta                 1.44.5
   meta                 1.44.3
+  meta                 1.44.5
+  meta                 1.44.6
 parted:
   meta                 3.3
   meta                 3.2
@@ -2204,11 +2109,11 @@ perf:
   meta                 1.0
 perl:
   meta                 5.30.1
+  meta                 5.28.1
   meta                 5.28.2
   meta                 5.30.0
   meta                 5.24.4
   meta                 5.30.0
-  meta                 5.28.1
 piglit:
   meta                 1.0+gitrAUTOINC+6126c2d4e4
 pigz:
@@ -2222,8 +2127,8 @@ pixman:
 pkgconf:
   meta                 1.6.3
   meta                 1.5.3
-  meta                 1.6.1
   meta                 1.6.0
+  meta                 1.6.1
 pkgconfig:
   meta                 0.29.2+gitAUTOINC+edf8e6f0ea
 pm-utils:
@@ -2256,9 +2161,9 @@ psplash:
   meta                 0.1+gitAUTOINC+2015f7073e
 ptest-runner:
   meta                 2.3.2+gitAUTOINC+7015e9199c
+  meta                 2.2+gitAUTOINC+49956f65bb
   meta                 2.3.1+gitAUTOINC+63d097cc46
   meta                 2.3+gitAUTOINC+e1062f776e
-  meta                 2.2+gitAUTOINC+49956f65bb
 pulseaudio:
   meta                 13.0
   meta                 12.2
@@ -2282,37 +2187,37 @@ python-numpy:
   meta                 1.16.2
 python-scons:
   meta                 3.1.0
-  meta                 3.0.5
   meta                 3.0.1
+  meta                 3.0.5
 python-scons-native:
   meta                 3.1.0
-  meta                 3.0.5
   meta                 3.0.1
+  meta                 3.0.5
 python-setuptools:
   meta                 42.0.2
+  meta                 40.0.0
+  meta                 40.8.0
+  meta                 41.0.1
   meta                 41.1.0
-  meta                 41.6.0
   meta                 41.2.0
   meta                 41.4.0
-  meta                 40.8.0
-  meta                 40.0.0
-  meta                 41.0.1
+  meta                 41.6.0
 python3:
   meta                 3.8.1
-  meta                 3.7.3
-  meta                 3.7.6
   meta                 3.5.6
   meta                 3.7.2
+  meta                 3.7.3
   meta                 3.7.4
   meta                 3.7.5
+  meta                 3.7.6
 python3-async:
   meta                 0.6.2
 python3-dbus:
   meta                 1.2.16
-  meta                 1.2.14
-  meta                 1.2.8
   meta                 1.2.10
   meta                 1.2.12
+  meta                 1.2.14
+  meta                 1.2.8
 python3-docutils:
   meta                 0.15
   meta                 0.14
@@ -2320,11 +2225,11 @@ python3-extras:
   meta                 1.0.0
 python3-git:
   meta                 3.0.5
+  meta                 2.1.11
+  meta                 2.1.12
   meta                 2.1.13
   meta                 3.0.0
   meta                 3.0.2
-  meta                 2.1.11
-  meta                 2.1.12
 python3-gitdb:
   meta                 2.0.6
   meta                 2.0.4
@@ -2337,79 +2242,79 @@ python3-magic:
   meta                 0.4.15
 python3-mako:
   meta                 1.1.0
-  meta                 1.0.12
-  meta                 1.0.7
   meta                 1.0.10
+  meta                 1.0.12
   meta                 1.0.13
   meta                 1.0.14
+  meta                 1.0.7
   meta                 1.0.9
 python3-nose:
   meta                 1.3.7
 python3-numpy:
   meta                 1.17.4
-  meta                 1.16.3
-  meta                 1.17.0
   meta                 1.14.5
   meta                 1.16.2
+  meta                 1.16.3
+  meta                 1.17.0
 python3-pbr:
   meta                 5.4.4
-  meta                 5.4.2
-  meta                 5.3.1
   meta                 4.2.0
-  meta                 5.4.3
-  meta                 5.4.1
-  meta                 5.4.0
-  meta                 5.1.3
   meta                 5.1.1
   meta                 5.1.2
+  meta                 5.1.3
   meta                 5.2.0
+  meta                 5.3.1
+  meta                 5.4.0
+  meta                 5.4.1
+  meta                 5.4.2
+  meta                 5.4.3
 python3-pip:
   meta                 20.0.2
-  meta                 19.2.2
-  meta                 19.0.3
-  meta                 19.2.3
   meta                 18.0
-  meta                 19.2.1
-  meta                 19.1.1
-  meta                 19.3.1
   meta                 19.0.2
+  meta                 19.0.3
+  meta                 19.1.1
+  meta                 19.2.1
+  meta                 19.2.2
+  meta                 19.2.3
+  meta                 19.3.1
 python3-pycairo:
   meta                 1.19.0
+  meta                 1.15.6
   meta                 1.18.1
   meta                 1.18.2
-  meta                 1.15.6
 python3-pygments:
   meta                 2.5.2
   meta                 2.4.2
 python3-pygobject:
   meta                 3.34.0
-  meta                 3.32.2
-  meta                 3.32.0
   meta                 3.28.3
+  meta                 3.32.0
   meta                 3.32.1
+  meta                 3.32.2
 python3-scons:
   meta                 3.1.1
-  meta                 3.1.0
   meta                 3.0.5
+  meta                 3.1.0
 python3-scons-native:
   meta                 3.1.1
-  meta                 3.1.0
   meta                 3.0.5
+  meta                 3.1.0
 python3-setuptools:
   meta                 45.0.0
   meta                 40.0.0
-  meta                 41.1.0
-  meta                 41.6.0
-  meta                 41.0.1
-  meta                 41.2.0
   meta                 40.8.0
+  meta                 41.0.1
+  meta                 41.1.0
+  meta                 41.2.0
   meta                 41.4.0
+  meta                 41.6.0
   meta                 42.0.2
 python3-six:
   meta                 1.14.0
-  meta                 1.13.0
-  meta                 1.12.0
   meta                 1.11.0
+  meta                 1.12.0
+  meta                 1.13.0
 python3-smmap:
   meta                 2.0.5
   meta                 0.9.0
@@ -2419,22 +2324,22 @@ python3-testtools:
   meta                 2.3.0
 qemu:
   meta                 4.2.0
-  meta                 4.1.0
-  meta                 3.1.0
   meta                 3.0.0
+  meta                 3.1.0
   meta                 4.0.0
+  meta                 4.1.0
 qemu-helper-native:
   meta                 1.0
 qemu-native:
   meta                 4.2.0
-  meta                 4.0.0
   meta                 3.1.0
+  meta                 4.0.0
   meta                 4.1.0
 qemu-system-native:
   meta                 4.2.0
-  meta                 4.1.0
-  meta                 4.0.0
   meta                 3.1.0
+  meta                 4.0.0
+  meta                 4.1.0
 qemuwrapper-cross:
   meta                 1.0
 quilt:
@@ -2459,9 +2364,9 @@ rgb:
 rng-tools:
   meta                 6.9
   meta                 5
-  meta                 6.8
   meta                 6.6
   meta                 6.7
+  meta                 6.8
 rpcbind:
   meta                 1.2.5
   meta                 0.2.4
@@ -2476,11 +2381,11 @@ rt-tests:
   meta                 1:1.1
 ruby:
   meta                 2.7.0
-  meta                 2.5.3
   meta                 2.5.1
-  meta                 2.6.5
+  meta                 2.5.3
   meta                 2.5.5
   meta                 2.6.4
+  meta                 2.6.5
 run-postinsts:
   meta                 1.0
 rxvt-unicode:
@@ -2495,8 +2400,8 @@ screen:
   meta                 4.6.2
 sed:
   meta                 4.8
-  meta                 4.7
   meta                 4.2.2
+  meta                 4.7
 serf:
   meta                 1.3.9
 setserial:
@@ -2532,51 +2437,51 @@ speexdsp:
   meta                 1.2rc3
 sqlite3:
   meta                 3:3.31.1
-  meta                 3:3.28.0
-  meta                 3:3.30.0
-  meta                 3:3.27.2
-  meta                 3:3.26.0
-  meta                 3:3.30.1
-  meta                 3:3.29.0
-  meta                 3:3.25.3
   meta                 3:3.23.1
   meta                 3:3.25.2
+  meta                 3:3.25.3
+  meta                 3:3.26.0
+  meta                 3:3.27.2
+  meta                 3:3.28.0
+  meta                 3:3.29.0
+  meta                 3:3.30.0
+  meta                 3:3.30.1
 squashfs-tools:
   meta                 4.4
 startup-notification:
   meta                 0.12
 strace:
   meta                 5.5
-  meta                 4.25
   meta                 4.24
-  meta                 5.3
+  meta                 4.25
   meta                 4.26
-  meta                 5.4
   meta                 5.2
+  meta                 5.3
+  meta                 5.4
 stress:
   meta                 1.0.4
 stress-ng:
   meta                 0.10.16
-  meta                 0.10.11
-  meta                 0.10.15
-  meta                 0.10.08
-  meta                 0.10.13
-  meta                 0.10.10
   meta                 0.10.00
+  meta                 0.10.08
+  meta                 0.10.10
+  meta                 0.10.11
+  meta                 0.10.13
+  meta                 0.10.15
 subversion:
   meta                 1.13.0
-  meta                 1.11.1
-  meta                 1.11.0
   meta                 1.10.0
+  meta                 1.11.0
+  meta                 1.11.1
   meta                 1.12.0
   meta                 1.12.2
 sudo:
   meta                 1.8.31
-  meta                 1.8.29
-  meta                 1.8.26
-  meta                 1.8.30
-  meta                 1.8.27
   meta                 1.8.23
+  meta                 1.8.26
+  meta                 1.8.27
+  meta                 1.8.29
+  meta                 1.8.30
 swig:
   meta                 3.0.12
 sysfsutils:
@@ -2589,15 +2494,15 @@ syslinux:
   meta                 6.04-pre2 (skipped)
 sysprof:
   meta                 3.32.0
-  meta                 3.30.2
   meta                 3.30.0
+  meta                 3.30.2
 sysstat:
   meta                 12.2.1
-  meta                 12.1.6
-  meta                 12.1.1
-  meta                 12.2.0
-  meta                 12.1.3
   meta                 11.7.4
+  meta                 12.1.1
+  meta                 12.1.3
+  meta                 12.1.6
+  meta                 12.2.0
 systemd:
   meta                 239 (skipped)
   meta                 241 (skipped)
@@ -2623,10 +2528,10 @@ systemd-compat-units:
 systemd-conf:
   meta                 244.1
   meta                 1.0
+  meta                 241
+  meta                 242
   meta                 243.2
   meta                 243
-  meta                 242
-  meta                 241
 systemd-machine-units:
   meta                 1.0
 systemd-serialgetty:
@@ -2656,8 +2561,8 @@ tcf-agent:
   meta                 1.7.0+gitAUTOINC+a022ef2f1a
 tcl:
   meta                 8.6.10
-  meta                 8.6.9
   meta                 8.6.8
+  meta                 8.6.9
 tcp-wrappers:
   meta                 7.6
 testexport-tarball:
@@ -2671,8 +2576,8 @@ texinfo-dummy-native:
   meta                 1.0
 tiff:
   meta                 4.1.0
-  meta                 4.0.9
   meta                 4.0.10
+  meta                 4.0.9
 time:
   meta                 1.9
 tiny-init:
@@ -2681,14 +2586,14 @@ ttf-bitstream-vera:
   meta                 1.10
 tzcode-native:
   meta                 2019c
-  meta                 2018i
   meta                 2018f
   meta                 2018g
+  meta                 2018i
 tzdata:
   meta                 2019c
-  meta                 2018i
-  meta                 2018g
   meta                 2018f
+  meta                 2018g
+  meta                 2018i
 u-boot:
   meta                 2018.07 (skipped)
   meta                 2018.11 (skipped)
@@ -2716,10 +2621,10 @@ u-boot-mkimage:
 u-boot-tools:
   meta                 1:2020.01
   meta                 1:2018.11
-  meta                 1:2019.10
   meta                 1:2019.01
   meta                 1:2019.04
   meta                 1:2019.07
+  meta                 1:2019.10
 udev-extraconf:
   meta                 1.1
 unfs3:
@@ -2748,42 +2653,42 @@ v86d:
   meta                 0.1.10 (skipped)
 vala:
   meta                 0.46.5
-  meta                 0.44.7
+  meta                 0.42.0
   meta                 0.42.3
+  meta                 0.42.4
+  meta                 0.42.5
+  meta                 0.44.3
+  meta                 0.44.5
+  meta                 0.44.7
   meta                 0.46.3
   meta                 0.46.4
-  meta                 0.44.3
-  meta                 0.42.0
-  meta                 0.42.4
-  meta                 0.44.5
-  meta                 0.42.5
 valgrind:
   meta                 3.15.0
   meta                 3.14.0
 vim:
   meta                 8.2
-  meta                 8.1.1518
-  meta                 8.1.1240
-  meta                 8.1.1017
   meta                 8.1.0347
+  meta                 8.1.1017
+  meta                 8.1.1240
+  meta                 8.1.1518
 vim-tiny:
   meta                 8.2
-  meta                 8.1.1017
-  meta                 8.1.1518
   meta                 8.1.0347
+  meta                 8.1.1017
   meta                 8.1.1240
+  meta                 8.1.1518
 virglrenderer:
   meta                 0.8.1
-  meta                 0.8.0
   meta                 0.7.0
+  meta                 0.8.0
 volatile-binds:
   meta                 unknown (skipped)
 vte:
   meta                 0.58.3
-  meta                 0.56.1
-  meta                 0.58.2
-  meta                 0.56.3
   meta                 0.52.2
+  meta                 0.56.1
+  meta                 0.56.3
+  meta                 0.58.2
 vulkan:
   meta                 1.1.73.0
 vulkan-demos:
@@ -2814,33 +2719,33 @@ wayland-protocols:
   meta                 1.17
 webkitgtk:
   meta                 2.26.4
-  meta                 2.24.4
-  meta                 2.22.3
-  meta                 2.26.2
-  meta                 2.24.0
-  meta                 2.22.5
-  meta                 2.24.3
-  meta                 2.24.2
   meta                 2.20.5
-  meta                 2.22.7
-  meta                 2.22.6
-  meta                 2.26.1
+  meta                 2.22.3
   meta                 2.22.4
+  meta                 2.22.5
+  meta                 2.22.6
+  meta                 2.22.7
+  meta                 2.24.0
+  meta                 2.24.2
+  meta                 2.24.3
+  meta                 2.24.4
+  meta                 2.26.1
+  meta                 2.26.2
 weston:
   meta                 8.0.0
-  meta                 7.0.0
   meta                 5.0.0
-  meta                 6.0.1
   meta                 6.0.0
+  meta                 6.0.1
+  meta                 7.0.0
 weston-conf:
   meta                 1.0
 weston-init:
   meta                 1.0
 wget:
   meta                 1.20.3
+  meta                 1.19.5
   meta                 1.20.1
   meta                 1.20.2
-  meta                 1.19.5
 which:
   meta                 2.21
 wic-tools:
@@ -2849,9 +2754,9 @@ wireless-regdb:
   meta                 2019.06.03
 wpa-supplicant:
   meta                 2.9
-  meta                 2.8
   meta                 2.6
   meta                 2.7
+  meta                 2.8
 x11perf:
   meta                 1:1.6.1
   meta                 1:1.6.0
@@ -2889,9 +2794,9 @@ xf86-input-keyboard:
   meta                 2:1.9.0
 xf86-input-libinput:
   meta                 2:0.29.0
-  meta                 2:0.28.2
-  meta                 2:0.28.1
   meta                 2:0.28.0
+  meta                 2:0.28.1
+  meta                 2:0.28.2
 xf86-input-mouse:
   meta                 2:1.9.3
 xf86-input-synaptics:
@@ -2925,10 +2830,10 @@ xkbcomp:
   meta                 1.4.2
 xkeyboard-config:
   meta                 2.28
-  meta                 2.27
   meta                 2.24
-  meta                 2.26
   meta                 2.25
+  meta                 2.26
+  meta                 2.27
 xmlto:
   meta                 0.0.28
 xmodmap:
@@ -2954,11 +2859,11 @@ xserver-xf86-config:
   meta                 0.1
 xserver-xorg:
   meta                 2:1.20.7
-  meta                 2:1.20.6
-  meta                 2:1.20.3
   meta                 2:1.20.1
-  meta                 2:1.20.5
+  meta                 2:1.20.3
   meta                 2:1.20.4
+  meta                 2:1.20.5
+  meta                 2:1.20.6
 xset:
   meta                 1:1.2.4
 xtrans:
